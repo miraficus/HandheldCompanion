@@ -1,0 +1,3025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XInputPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\XInputPlus.ini;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="chord_neptune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller_base\chord_neptune.vdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="empty_neptune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\controller_base\empty_neptune.vdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xinput1_x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\XInputPlus\x64\XInput1_3.dl_;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xinput1_x86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\XInputPlus\x86\XInput1_3.dl_;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XInputPlusInjector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\XInputPlus\Loader\XInputPlusInjector.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XInputPlusInjector64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\XInputPlus\Loader\XInputPlusInjector64.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AboutPage_About" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="AboutPage_AboutDescription" xml:space="preserve">
+    <value>Kombinace služby Windows a dotykového rozhraní optimalizovaného GUI pro zvýšení herního zážitku z kapesního počítače. Mezi funkce patří: ovládání pohybu neboli gyroskopické ovládání, simulace virtuálního ovladače, rychlé překrytí nástrojů, virtuální touchpady, 3D model ovladače, systém nastavení profilu podle aplikace. Handheld Companion spoléhá na ovladač ViGEmBus a knihovny ViGEmClient a také ovladač filtru v režimu jádra HidHide. Algoritmy řízení pohybu jsou založeny na práci Jibbsmart a dostupných informacích na GyroWiki.</value>
+  </data>
+  <data name="AboutPage_Accelerometer" xml:space="preserve">
+    <value>Akcelerometr</value>
+  </data>
+  <data name="AboutPage_Author" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="AboutPage_Contributors" xml:space="preserve">
+    <value>Přispěvatelé</value>
+  </data>
+  <data name="AboutPage_Description" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="AboutPage_Donate" xml:space="preserve">
+    <value>Darovat</value>
+  </data>
+  <data name="AboutPage_Gyrometer" xml:space="preserve">
+    <value>Gyrometr</value>
+  </data>
+  <data name="AboutPage_Inclinometer" xml:space="preserve">
+    <value>Sklonoměr</value>
+  </data>
+  <data name="AboutPage_NotApplicable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="AboutPage_RelatedLinks" xml:space="preserve">
+    <value>související odkazy</value>
+  </data>
+  <data name="AboutPage_SensorExternal" xml:space="preserve">
+    <value>Externí</value>
+  </data>
+  <data name="AboutPage_SensorInternal" xml:space="preserve">
+    <value>Vnitřní</value>
+  </data>
+  <data name="AboutPage_SensorName" xml:space="preserve">
+    <value>Název senzoru</value>
+  </data>
+  <data name="AboutPage_SensorSpecification" xml:space="preserve">
+    <value>Specifikace snímače</value>
+  </data>
+  <data name="AboutPage_Service" xml:space="preserve">
+    <value>Servis</value>
+  </data>
+  <data name="AboutPage_SourceCode" xml:space="preserve">
+    <value>Zdrojový kód</value>
+  </data>
+  <data name="AboutPage_Version" xml:space="preserve">
+    <value>Verze</value>
+  </data>
+  <data name="AboutPage_Wiki" xml:space="preserve">
+    <value>Wiki</value>
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Správce</value>
+  </data>
+  <data name="ControllerPage_CloakDevice" xml:space="preserve">
+    <value>Skrýt ovladač při připojení</value>
+  </data>
+  <data name="ControllerPage_CloakDeviceDesc" xml:space="preserve">
+    <value>Při připojení skrýt fyzický ovladač</value>
+  </data>
+  <data name="ControllerPage_Connect" xml:space="preserve">
+    <value>Připojit</value>
+  </data>
+  <data name="ControllerPage_Controller" xml:space="preserve">
+    <value>Ovladač</value>
+  </data>
+  <data name="ControllerPage_DeviceCloaking" xml:space="preserve">
+    <value>Maskování ovladače</value>
+  </data>
+  <data name="ControllerPage_VirtualDeviceSettings" xml:space="preserve">
+    <value>Nastavení virtuálního ovladače</value>
+  </data>
+  <data name="ControllerPage_Disconnect" xml:space="preserve">
+    <value>Odpojit</value>
+  </data>
+  <data name="ControllerPage_PhysicalDevices" xml:space="preserve">
+    <value>Fyzické ovladače</value>
+  </data>
+  <data name="ControllerPage_UncloakOnClose" xml:space="preserve">
+    <value>Při zavření odkrýt ovladač</value>
+  </data>
+  <data name="ControllerPage_UncloakOnCloseDesc" xml:space="preserve">
+    <value>Obnovte viditelnost všech fyzických ovladačů při ukončení aplikace</value>
+  </data>
+  <data name="ControllerPage_VibrationStrength" xml:space="preserve">
+    <value>Síla vibrací</value>
+  </data>
+  <data name="ControllerPage_VibrationStrengthExpl" xml:space="preserve">
+    <value>Změňte sílu vibrací ovladače</value>
+  </data>
+  <data name="InputsHotkey_decreaseTDP" xml:space="preserve">
+    <value>Snížit limit tepelného výkonu (TDP)</value>
+  </data>
+  <data name="InputsHotkey_decreaseTDPDesc" xml:space="preserve">
+    <value>Snižte TDP systému nebo aktuálně aplikovaného profilu o jeden watt</value>
+  </data>
+  <data name="InputsHotkey_fallbackInput" xml:space="preserve">
+    <value>Stisknutím definujte spouštění</value>
+  </data>
+  <data name="InputsHotkey_fallbackOutput" xml:space="preserve">
+    <value>Stisknutím nastavíte výstup klávesnice</value>
+  </data>
+  <data name="InputsHotkey_increaseTDP" xml:space="preserve">
+    <value>Zvýšit limit tepelného výkonu (TDP)</value>
+  </data>
+  <data name="InputsHotkey_increaseTDPDesc" xml:space="preserve">
+    <value>Zvyšte TDP systému nebo aktuálně používaného profilu o jeden watt</value>
+  </data>
+  <data name="InputsHotkey_overlayGamepad" xml:space="preserve">
+    <value>Displej 3D ovladač</value>
+  </data>
+  <data name="InputsHotkey_overlayGamepadDesc" xml:space="preserve">
+    <value>Změňte 3D klávesovou zkratku stisknutím tlačítka nebo speciální klávesy</value>
+  </data>
+  <data name="InputsHotkey_overlayTrackpads" xml:space="preserve">
+    <value>Zobrazení virtuálních trackpadů</value>
+  </data>
+  <data name="InputsHotkey_overlayTrackpadsDesc" xml:space="preserve">
+    <value>Změňte klávesovou zkratku stisknutím tlačítka nebo speciální klávesy</value>
+  </data>
+  <data name="InputsHotkey_quickTools" xml:space="preserve">
+    <value>Vyvolejte okno rychlých nástrojů</value>
+  </data>
+  <data name="InputsHotkey_quickToolsDesc" xml:space="preserve">
+    <value>Změňte klávesovou zkratku stisknutím tlačítka nebo speciální klávesy</value>
+  </data>
+  <data name="InputsHotkey_shortcutCustom" xml:space="preserve">
+    <value>Vlastní zkratka</value>
+  </data>
+  <data name="InputsHotkey_shortcutCustomDesc" xml:space="preserve">
+    <value>Změňte klávesovou zkratku stisknutím tlačítka nebo speciální klávesy</value>
+  </data>
+  <data name="InputsHotkey_shortcutDesktop" xml:space="preserve">
+    <value>Zobrazení a skrytí plochy</value>
+  </data>
+  <data name="InputsHotkey_shortcutDesktopDesc" xml:space="preserve">
+    <value>Stiskněte tuto klávesu: Windows + D</value>
+  </data>
+  <data name="InputsHotkey_shortcutESC" xml:space="preserve">
+    <value>Uniknout</value>
+  </data>
+  <data name="InputsHotkey_shortcutESCDesc" xml:space="preserve">
+    <value>Stiskněte tuto klávesu: Escape</value>
+  </data>
+  <data name="InputsHotkey_shortcutExpand" xml:space="preserve">
+    <value>Přepíná mezi oknem a celou obrazovkou</value>
+  </data>
+  <data name="InputsHotkey_shortcutExpandDesc" xml:space="preserve">
+    <value>Stiskněte tuto klávesu: Alt + Enter</value>
+  </data>
+  <data name="InputsHotkey_shortcutGuide" xml:space="preserve">
+    <value>Průvodce nebo tlačítko PS</value>
+  </data>
+  <data name="InputsHotkey_shortcutGuideDesc" xml:space="preserve">
+    <value>Simulujte vstup Xbox Guide nebo Sony PS tlačítka</value>
+  </data>
+  <data name="InputsHotkey_shortcutKeyboard" xml:space="preserve">
+    <value>Displej dotykové klávesnice</value>
+  </data>
+  <data name="InputsHotkey_shortcutKeyboardDesc" xml:space="preserve">
+    <value>Změňte klávesovou zkratku stisknutím tlačítka nebo speciální klávesy</value>
+  </data>
+  <data name="InputsHotkey_shortcutKillApp" xml:space="preserve">
+    <value>Vynutit vypnutí aplikace</value>
+  </data>
+  <data name="InputsHotkey_shortcutKillAppDesc" xml:space="preserve">
+    <value>Změňte klávesovou zkratku stisknutím tlačítka nebo speciální klávesy</value>
+  </data>
+  <data name="InputsHotkey_shortcutMainwindow" xml:space="preserve">
+    <value>Zobrazení a skrytí hlavního okna</value>
+  </data>
+  <data name="InputsHotkey_shortcutMainwindowDesc" xml:space="preserve">
+    <value>Změňte klávesovou zkratku stisknutím tlačítka nebo speciální klávesy</value>
+  </data>
+  <data name="InputsHotkey_shortcutTaskManager" xml:space="preserve">
+    <value>Otevřete Správce úloh</value>
+  </data>
+  <data name="InputsHotkey_shortcutTaskManagerDesc" xml:space="preserve">
+    <value>Stiskněte tuto klávesu: Ctrl + Shift + Esc</value>
+  </data>
+  <data name="InputsHotkey_shortcutTaskview" xml:space="preserve">
+    <value>Otevřete zobrazení úkolů</value>
+  </data>
+  <data name="InputsHotkey_shortcutTaskviewDesc" xml:space="preserve">
+    <value>Stiskněte tuto klávesu: Windows + Tab</value>
+  </data>
+  <data name="InputsHotkey_suspendResumeTask" xml:space="preserve">
+    <value>Přepnout Suspender</value>
+  </data>
+  <data name="InputsHotkey_suspendResumeTaskDesc" xml:space="preserve">
+    <value>Pozastavit nebo obnovit aplikaci na popředí</value>
+  </data>
+  <data name="MainWindow_HandheldCompanion" xml:space="preserve">
+    <value>Handheld Companion</value>
+  </data>
+  <data name="MainWindow_navAbout" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="MainWindow_navController" xml:space="preserve">
+    <value>Ovladač</value>
+  </data>
+  <data name="MainWindow_navOverlay" xml:space="preserve">
+    <value>Překryvná vrstva</value>
+  </data>
+  <data name="MainWindow_navProfiles" xml:space="preserve">
+    <value>Profily</value>
+  </data>
+  <data name="MainWindow_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MainWindow_Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="OverlayPage_8BitDoLite2Controller" xml:space="preserve">
+    <value>8BitDo Lite 2</value>
+  </data>
+  <data name="OverlayPage_Alignment" xml:space="preserve">
+    <value>Zarovnání</value>
+  </data>
+  <data name="OverlayPage_AlignmentDesc" xml:space="preserve">
+    <value>Změňte zarovnání překrytí 3D ovladače</value>
+  </data>
+  <data name="OverlayPage_AlignmentTrackpadDesc" xml:space="preserve">
+    <value>Změňte zarovnání překryvných trackpadů</value>
+  </data>
+  <data name="OverlayPage_AlwaysOnTop" xml:space="preserve">
+    <value>Vždy na vrcholu</value>
+  </data>
+  <data name="OverlayPage_AlwaysOnTopDesc" xml:space="preserve">
+    <value>Při přepnutí zůstane překrytí 3D ovladače nad ostatními okny</value>
+  </data>
+  <data name="OverlayPage_BackButton" xml:space="preserve">
+    <value>Zadní</value>
+  </data>
+  <data name="OverlayPage_CameraAngle" xml:space="preserve">
+    <value>Kamera na obličej</value>
+  </data>
+  <data name="OverlayPage_CameraAngleDesc" xml:space="preserve">
+    <value>Změňte chování překryvného modelu 3D ovladače pro čelem ke kameře</value>
+  </data>
+  <data name="OverlayPage_CameraAnglePitch" xml:space="preserve">
+    <value>Stacionární hřiště</value>
+  </data>
+  <data name="OverlayPage_CameraAnglePitchDesc" xml:space="preserve">
+    <value>Změňte úhel</value>
+  </data>
+  <data name="OverlayPage_Color" xml:space="preserve">
+    <value>Barva pozadí</value>
+  </data>
+  <data name="OverlayPage_ColorDesc" xml:space="preserve">
+    <value>Změňte barvu pozadí překryvného 3D ovladače</value>
+  </data>
+  <data name="OverlayPage_ControllerOptions" xml:space="preserve">
+    <value>Možnosti ovladače</value>
+  </data>
+  <data name="OverlayPage_DualSenseController" xml:space="preserve">
+    <value>PlayStation DualSense</value>
+  </data>
+  <data name="OverlayPage_EmulatedController" xml:space="preserve">
+    <value>Emulovaný ovladač</value>
+  </data>
+  <data name="OverlayPage_FaceCamera" xml:space="preserve">
+    <value>Kamera na obličej</value>
+  </data>
+  <data name="OverlayPage_FaceCameraDesc" xml:space="preserve">
+    <value>3D model se pomalu otáčí do výchozí pozice kamery</value>
+  </data>
+  <data name="OverlayPage_Listening" xml:space="preserve">
+    <value>Naslouchání...</value>
+  </data>
+  <data name="OverlayPage_MachenikeHG510Controller" xml:space="preserve">
+    <value>MACHENIKE HG510</value>
+  </data>
+  <data name="OverlayPage_MainTrigger" xml:space="preserve">
+    <value>Hlavní spoušť</value>
+  </data>
+  <data name="OverlayPage_MainTriggerDesc" xml:space="preserve">
+    <value>Změňte hlavní spoušť překrytí 3D ovladače</value>
+  </data>
+  <data name="OverlayPage_MotionActivated" xml:space="preserve">
+    <value>Pohyb</value>
+  </data>
+  <data name="OverlayPage_MotionActivatedDesc" xml:space="preserve">
+    <value>Model se bude pohybovat v souladu s pohyby uživatele na základě informací ze senzoru</value>
+  </data>
+  <data name="OverlayPage_N64Controller" xml:space="preserve">
+    <value>N64</value>
+  </data>
+  <data name="OverlayPage_OEMController" xml:space="preserve">
+    <value>OEM ovladač</value>
+  </data>
+  <data name="OverlayPage_Opacity" xml:space="preserve">
+    <value>Neprůhlednost</value>
+  </data>
+  <data name="OverlayPage_OpacityControllerDesc" xml:space="preserve">
+    <value>Změňte průhlednost překrytí 3D ovladače</value>
+  </data>
+  <data name="OverlayPage_OpacityTrackpadDesc" xml:space="preserve">
+    <value>Změna krytí překryvných trackpadů</value>
+  </data>
+  <data name="OverlayPage_Overlay" xml:space="preserve">
+    <value>Překryvná vrstva</value>
+  </data>
+  <data name="OverlayPage_OverlayModel" xml:space="preserve">
+    <value>Překryvný model</value>
+  </data>
+  <data name="OverlayPage_OverlayModelDesc" xml:space="preserve">
+    <value>Změna překryvného modelu 3D ovladače</value>
+  </data>
+  <data name="OverlayPage_OverlayPreview" xml:space="preserve">
+    <value>Náhled překrytí</value>
+  </data>
+  <data name="OverlayPage_RenderSettings" xml:space="preserve">
+    <value>Nastavení vykreslování</value>
+  </data>
+  <data name="OverlayPage_RenderSettingsAntialiasing" xml:space="preserve">
+    <value>Anti aliasing</value>
+  </data>
+  <data name="OverlayPage_RenderSettingsAntialiasingDesc" xml:space="preserve">
+    <value>Změňte stav vyhlazování vykreslení</value>
+  </data>
+  <data name="OverlayPage_RenderSettingsDesc" xml:space="preserve">
+    <value>Změňte nastavení vykreslování vašeho modelu stacionárního 3D překryvného řadiče</value>
+  </data>
+  <data name="OverlayPage_RenderSettingsFramerate" xml:space="preserve">
+    <value>Rychlost aktualizace</value>
+  </data>
+  <data name="OverlayPage_RenderSettingsFramerateDesc" xml:space="preserve">
+    <value>Změňte rychlost aktualizace vykreslování v aktualizaci za sekundu</value>
+  </data>
+  <data name="OverlayPage_Size" xml:space="preserve">
+    <value>Velikost</value>
+  </data>
+  <data name="OverlayPage_SizeDesc" xml:space="preserve">
+    <value>Změna velikosti překryvného 3D ovladače</value>
+  </data>
+  <data name="OverlayPage_SizeOverlayDesc" xml:space="preserve">
+    <value>Změna velikosti překrytí trackpadů</value>
+  </data>
+  <data name="OverlayPage_StartButton" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="OverlayPage_ToyController" xml:space="preserve">
+    <value>Ovladač Fisher-Price</value>
+  </data>
+  <data name="OverlayPage_TrackpadsOptions" xml:space="preserve">
+    <value>Možnosti trackpadů</value>
+  </data>
+  <data name="OverlayPage_XboxOneController" xml:space="preserve">
+    <value>Xbox One</value>
+  </data>
+  <data name="OverlayPage_ZDOPlusController" xml:space="preserve">
+    <value>ZD O+</value>
+  </data>
+  <data name="Overlay_Overlay" xml:space="preserve">
+    <value>Překryvná vrstva</value>
+  </data>
+  <data name="ProcessEx_processResume" xml:space="preserve">
+    <value>Životopis</value>
+  </data>
+  <data name="ProcessEx_processSuspend" xml:space="preserve">
+    <value>Pozastavit</value>
+  </data>
+  <data name="SettingsMode0_AdditionalSettings" xml:space="preserve">
+    <value>Další nastavení</value>
+  </data>
+  <data name="SettingsMode0_AimingDownSights" xml:space="preserve">
+    <value>Zaměřovací mířidla multiplikátor pohybu</value>
+  </data>
+  <data name="SettingsMode0_AimingDownSightsActivation" xml:space="preserve">
+    <value>Aktivační tlačítko</value>
+  </data>
+  <data name="SettingsMode0_AimingDownSightsDesc" xml:space="preserve">
+    <value>Další multiplikátor citlivosti na pohyb při míření dolů mířidly nebo dalekohledem pomocí nakonfigurovaného aktivačního tlačítka</value>
+  </data>
+  <data name="SettingsMode0_AimingDownSightsMultiplier" xml:space="preserve">
+    <value>Hodnota multiplikátoru</value>
+  </data>
+  <data name="SettingsMode0_CameraOptions" xml:space="preserve">
+    <value>Možnosti fotoaparátu</value>
+  </data>
+  <data name="SettingsMode0_CustomResponseCurve" xml:space="preserve">
+    <value>Vlastní křivka odezvy</value>
+  </data>
+  <data name="SettingsMode0_CustomResponseCurveGameOutput" xml:space="preserve">
+    <value>Výstup odeslán do hry</value>
+  </data>
+  <data name="SettingsMode0_CustomResponseIntensity" xml:space="preserve">
+    <value>Intenzita pohybu</value>
+  </data>
+  <data name="SettingsMode0_CustomResponsePresetAgressive" xml:space="preserve">
+    <value>Agresivní</value>
+  </data>
+  <data name="SettingsMode0_CustomResponsePresetDefault" xml:space="preserve">
+    <value>Výchozí</value>
+  </data>
+  <data name="SettingsMode0_CustomResponsePresetOptions" xml:space="preserve">
+    <value>Přednastavené možnosti</value>
+  </data>
+  <data name="SettingsMode0_CustomResponsePresetPrecise" xml:space="preserve">
+    <value>Přesný</value>
+  </data>
+  <data name="SettingsMode0_FlickDuration" xml:space="preserve">
+    <value>Trvání švihnutí</value>
+  </data>
+  <data name="SettingsMode0_FlickDurationDesc" xml:space="preserve">
+    <value>Změňte trvání švihnutí, zkalibrujte na otočení o 180 stupňů v milisekundách</value>
+  </data>
+  <data name="SettingsMode0_FlickStick" xml:space="preserve">
+    <value>Flick stick (experimentální)</value>
+  </data>
+  <data name="SettingsMode0_FlickStickDesc" xml:space="preserve">
+    <value>Namiřte kameru ve směru pohybu (pravého) joysticku, otáčením otočte kameru čistě v horizontální rovině</value>
+  </data>
+  <data name="SettingsMode0_FlickStickEnable" xml:space="preserve">
+    <value>Povolit rychlý pohyb</value>
+  </data>
+  <data name="SettingsMode0_Sensitivity" xml:space="preserve">
+    <value>Citlivost</value>
+  </data>
+  <data name="SettingsMode0_SensitivityDesc" xml:space="preserve">
+    <value>Změňte citlivost pohybu horizontální a vertikální osy</value>
+  </data>
+  <data name="SettingsMode0_SensitivityX" xml:space="preserve">
+    <value>Citlivost X</value>
+  </data>
+  <data name="SettingsMode0_SensitivityXDesc" xml:space="preserve">
+    <value>Změňte citlivost pohybu horizontální osy</value>
+  </data>
+  <data name="SettingsMode0_SensitivityY" xml:space="preserve">
+    <value>Citlivost Y</value>
+  </data>
+  <data name="SettingsMode0_SensitivityYDesc" xml:space="preserve">
+    <value>Změňte citlivost pohybu svislé osy</value>
+  </data>
+  <data name="SettingsMode0_StickSensitivtity" xml:space="preserve">
+    <value>Citlivost na hůl</value>
+  </data>
+  <data name="SettingsMode0_StickSensitivtityDesc" xml:space="preserve">
+    <value>Změňte rychlost otáčení</value>
+  </data>
+  <data name="SettingsMode1_AdditionalSettings" xml:space="preserve">
+    <value>Další nastavení</value>
+  </data>
+  <data name="SettingsMode1_Deadzone" xml:space="preserve">
+    <value>Mrtvá zóna</value>
+  </data>
+  <data name="SettingsMode1_DeadzoneDesc" xml:space="preserve">
+    <value>Změňte mrtvou zónu řízení. Zlepšuje přímé řízení</value>
+  </data>
+  <data name="SettingsMode1_JoystickGameInput" xml:space="preserve">
+    <value>Vstup do hry joystickem</value>
+    <comment>// not good</comment>
+  </data>
+  <data name="SettingsMode1_JoystickSteering" xml:space="preserve">
+    <value>Joystick řízení</value>
+  </data>
+  <data name="SettingsMode1_JoystickSteeringOptions" xml:space="preserve">
+    <value>Možnosti řízení pomocí joysticku</value>
+  </data>
+  <data name="SettingsMode1_JoystickSteeringPreview" xml:space="preserve">
+    <value>Náhled řízení joystickem</value>
+  </data>
+  <data name="SettingsMode1_MaxSteeringAngle" xml:space="preserve">
+    <value>Maximální úhel řízení</value>
+  </data>
+  <data name="SettingsMode1_MaxSteeringAngleDesc" xml:space="preserve">
+    <value>Změňte hodnotu maximálního úhlu řízení</value>
+  </data>
+  <data name="SettingsMode1_SteeringLinearity" xml:space="preserve">
+    <value>Linearita řízení</value>
+  </data>
+  <data name="SettingsMode1_SteeringLinearityDesc" xml:space="preserve">
+    <value>Mapování mezi vstupem a řízením. Nižší hodnoty poskytují větší přesnost blízko úplného zámku, ale menší přesnost blízko středu. Vyšší hodnoty poskytují větší přesnost blízko středu, ale menší přesnost blízko úplného zámku. 1.0 je lineární mapování</value>
+  </data>
+  <data name="ProfilesPage_AccelerometerMultiplier" xml:space="preserve">
+    <value>Násobič akcelerometru</value>
+  </data>
+  <data name="ProfilesPage_AccelerometerMultiplierDesc" xml:space="preserve">
+    <value>Změňte hodnotu akcelerometru hlášenou systémem</value>
+  </data>
+  <data name="ProfilesPage_AdditionalSettings" xml:space="preserve">
+    <value>Další nastavení</value>
+  </data>
+  <data name="ProfilesPage_AntiDeadzone" xml:space="preserve">
+    <value>Anti-mrtvá zóna</value>
+  </data>
+  <data name="ProfilesPage_AntiDeadzoneDesc" xml:space="preserve">
+    <value>Změňte anti-mrtvou zónu ve hře v procentech</value>
+  </data>
+  <data name="ProfilesPage_AntiDeadzoneUnitPercentage" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ProfilesPage_AreYouSureDelete1" xml:space="preserve">
+    <value>Jste si jistí, že to chcete smazat?</value>
+  </data>
+  <data name="ProfilesPage_AreYouSureDelete2" xml:space="preserve">
+    <value>Tato položka bude okamžitě smazána. Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="ProfilesPage_AreYouSureOverwrite1" xml:space="preserve">
+    <value>Opravdu chcete přepsat tento profil?</value>
+  </data>
+  <data name="ProfilesPage_AreYouSureOverwrite2" xml:space="preserve">
+    <value>{0} bude přepsáno. Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="ProfilesPage_BoostPower" xml:space="preserve">
+    <value>Zvýšit limit výkonu</value>
+  </data>
+  <data name="ProfilesPage_BoostPowerDesc" xml:space="preserve">
+    <value>Změňte limit zvýšení tepelného výkonu</value>
+  </data>
+  <data name="ProfilesPage_Cancel" xml:space="preserve">
+    <value>zrušení</value>
+  </data>
+  <data name="ProfilesPage_CreateNewProfile" xml:space="preserve">
+    <value>Vytvořte nový profil</value>
+  </data>
+  <data name="ProfilesPage_Delete" xml:space="preserve">
+    <value>Vymazat</value>
+  </data>
+  <data name="ProfilesPage_DeleteProfile" xml:space="preserve">
+    <value>Smazat profil</value>
+  </data>
+  <data name="ProfilesPage_EnableProfile" xml:space="preserve">
+    <value>Uživatelský profil pro jednotlivé hry</value>
+  </data>
+  <data name="ProfilesPage_EnableProfileDesc" xml:space="preserve">
+    <value>Profil bude automaticky použit, když je detekována přidružená aplikace</value>
+  </data>
+  <data name="ProfilesPage_GlobalSettings" xml:space="preserve">
+    <value>Globální nastavení</value>
+  </data>
+  <data name="ProfilesPage_GlobalSettingsDesc" xml:space="preserve">
+    <value>Změňte nastavení globálních profilů</value>
+  </data>
+  <data name="ProfilesPage_GyrometerMultiplier" xml:space="preserve">
+    <value>Gyrometr multiplikátor</value>
+  </data>
+  <data name="ProfilesPage_GyrometerMultiplierDesc" xml:space="preserve">
+    <value>Změňte hodnotu gyrometru hlášenou systémem</value>
+  </data>
+  <data name="ProfilesPage_GyroSteeringAxis" xml:space="preserve">
+    <value>Gyroskopická osa řízení</value>
+  </data>
+  <data name="ProfilesPage_GyroSteeringAxisDesc" xml:space="preserve">
+    <value>Pro ovládání vodorovného pohybu ovladače můžete použít osu stáčení nebo otáčení</value>
+  </data>
+  <data name="ProfilesPage_InvertHorizontalAxis" xml:space="preserve">
+    <value>Převrátit vodorovnou osu</value>
+  </data>
+  <data name="ProfilesPage_InvertVerticalAxis" xml:space="preserve">
+    <value>Převrátit vertikální osu</value>
+  </data>
+  <data name="ProfilesPage_MotionControlSettings" xml:space="preserve">
+    <value>Nastavení ovládání pohybu</value>
+  </data>
+  <data name="ProfilesPage_MotionControlSettingsDesc" xml:space="preserve">
+    <value>Změňte nastavení ovládání pohybu</value>
+  </data>
+  <data name="ProfilesPage_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ProfilesPage_PowerPreset" xml:space="preserve">
+    <value>Přednastavený výkon</value>
+  </data>
+  <data name="ProfilesPage_PowerPresetDesc" xml:space="preserve">
+    <value>Změňte vybranou předvolbu výkonu</value>
+  </data>
+  <data name="ProfilesPage_ProfileDetails" xml:space="preserve">
+    <value>Detaily profilu</value>
+  </data>
+  <data name="ProfilesPage_ProfileName" xml:space="preserve">
+    <value>Jméno profilu</value>
+  </data>
+  <data name="ProfilesPage_ProfilePath" xml:space="preserve">
+    <value>Cesta profilu</value>
+  </data>
+  <data name="ProfilesPage_Profiles" xml:space="preserve">
+    <value>Profily</value>
+  </data>
+  <data name="ProfilesPage_ProfileSelection" xml:space="preserve">
+    <value>Výběr profilu</value>
+  </data>
+  <data name="ProfilesPage_ProfileSelectionDesc" xml:space="preserve">
+    <value>Vyberte profil, který chcete upravit</value>
+  </data>
+  <data name="ProfilesPage_ProfileSettings" xml:space="preserve">
+    <value>Nastavení profilu</value>
+  </data>
+  <data name="ProfilesPage_ProfileUpdated1" xml:space="preserve">
+    <value>profil aktualizován</value>
+  </data>
+  <data name="ProfilesPage_ProfileUpdated2" xml:space="preserve">
+    <value>byl aktualizován.</value>
+  </data>
+  <data name="ProfilesPage_Roll" xml:space="preserve">
+    <value>Válec</value>
+  </data>
+  <data name="ProfilesPage_SensitivityX" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="ProfilesPage_SensitivityY" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="ProfilesPage_StyleofInput" xml:space="preserve">
+    <value>Styl vstupu</value>
+  </data>
+  <data name="ProfilesPage_StyleofInputTooltip" xml:space="preserve">
+    <value>Fyzické vstupy ovladače lze naprogramovat tak, aby fungovaly jako různé typy zařízení</value>
+  </data>
+  <data name="ProfilesPage_StyleofOutput" xml:space="preserve">
+    <value>Výstupní zařízení</value>
+  </data>
+  <data name="ProfilesPage_StyleofOutputTooltip" xml:space="preserve">
+    <value>Vyberte zařízení, které bude přijímat pohybové příkazy</value>
+  </data>
+  <data name="ProfilesPage_SustainedPower" xml:space="preserve">
+    <value>Trvalý limit výkonu</value>
+  </data>
+  <data name="ProfilesPage_SustainedPowerDesc" xml:space="preserve">
+    <value>Změňte limit trvalého tepelného výkonu</value>
+  </data>
+  <data name="ProfilesPage_TDPOverride" xml:space="preserve">
+    <value>Limit tepelného výkonu (TDP).</value>
+  </data>
+  <data name="ProfilesPage_TDPOverrideDesc" xml:space="preserve">
+    <value>Omezuje výkon procesoru a snižuje celkový výkon</value>
+  </data>
+  <data name="ProfilesPage_UMCEnable" xml:space="preserve">
+    <value>Povolit univerzální ovladač pohybu</value>
+  </data>
+  <data name="ProfilesPage_UMCMotionOff" xml:space="preserve">
+    <value>Zakázáno, zapnout tlačítkem (tlačítky)</value>
+  </data>
+  <data name="ProfilesPage_UMCMotionOn" xml:space="preserve">
+    <value>Povoleno, vypněte pomocí tlačítek</value>
+  </data>
+  <data name="ProfilesPage_UMCMotionToggle" xml:space="preserve">
+    <value>Přepínat mezi aktivací a deaktivací pomocí tlačítek</value>
+  </data>
+  <data name="ProfilesPage_UMCMotionOnOff" xml:space="preserve">
+    <value>Aktivace pohybu</value>
+  </data>
+  <data name="ProfilesPage_UMCMotionOnOffDesc" xml:space="preserve">
+    <value>Pohybový vstup deaktivován: podržením vybraných tlačítek aktivujete pohyb.
+Pohybový vstup povolen: podržením vybraných tlačítek pohyb deaktivujete.
+Přepnutí vstupu pohybu: stisknutím vybraných tlačítek přepnete stav pohybu.</value>
+  </data>
+  <data name="ProfilesPage_UMCSelectionRightLeftDesc" xml:space="preserve">
+    <value>Vyberte zařízení, které bude přijímat pohybové příkazy</value>
+  </data>
+  <data name="ProfilesPage_UMCSettings" xml:space="preserve">
+    <value>Univerzální nastavení ovládání pohybu</value>
+  </data>
+  <data name="ProfilesPage_UMCSettingsDesc" xml:space="preserve">
+    <value>Převeďte pohyby zařízení na vstupy ovladače</value>
+  </data>
+  <data name="ProfilesPage_UpdateProfile" xml:space="preserve">
+    <value>Aktualizovat profil</value>
+  </data>
+  <data name="ProfilesPage_Whitelist" xml:space="preserve">
+    <value>Povolit aplikaci přístup k fyzickému ovladači zařízení</value>
+  </data>
+  <data name="ProfilesPage_Wrapper" xml:space="preserve">
+    <value>Rozšířená kompatibilita (XInputPlus)</value>
+  </data>
+  <data name="ProfilesPage_Yaw" xml:space="preserve">
+    <value>Yaw</value>
+  </data>
+  <data name="ProfilesPage_Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Properties_Resources_ControllerPage_Disconnect" xml:space="preserve">
+    <value>Odpojit</value>
+  </data>
+  <data name="QuickPerformancePage_GPUControl" xml:space="preserve">
+    <value>Manuální ovládání hodin GPU</value>
+  </data>
+  <data name="QuickPerformancePage_GPUControlDesc" xml:space="preserve">
+    <value>Nastaví GPU na pevné hodiny</value>
+  </data>
+  <data name="QuickPerformancePage_GPUUnit" xml:space="preserve">
+    <value>MHz</value>
+  </data>
+  <data name="QuickPerformancePage_PowerMode" xml:space="preserve">
+    <value>Režim napájení</value>
+  </data>
+  <data name="QuickPerformancePage_PowerModeBalanced" xml:space="preserve">
+    <value>Vyrovnaný</value>
+  </data>
+  <data name="QuickPerformancePage_PowerModeDesc" xml:space="preserve">
+    <value>Optimalizujte své zařízení na základě spotřeby energie a výkonu</value>
+  </data>
+  <data name="QuickPerformancePage_PowerModeEfficiency" xml:space="preserve">
+    <value>Účinnost</value>
+  </data>
+  <data name="QuickPerformancePage_PowerModePerformance" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="QuickPerformancePage_TDPBoost" xml:space="preserve">
+    <value>Posílit</value>
+  </data>
+  <data name="QuickPerformancePage_TDPLimit" xml:space="preserve">
+    <value>Limit tepelného výkonu (TDP).</value>
+  </data>
+  <data name="QuickPerformancePage_TDPLimitDesc" xml:space="preserve">
+    <value>Omezuje výkon procesoru a snižuje celkový výkon</value>
+  </data>
+  <data name="QuickPerformancePage_TDPOverWrittenWarning" xml:space="preserve">
+    <value>Limit tepelného výkonu je přepsán profilem</value>
+  </data>
+  <data name="QuickPerformancePage_TDPSustained" xml:space="preserve">
+    <value>Trvale</value>
+  </data>
+  <data name="QuickPerformancePage_TDPUnitWatt" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="QuickProfilesPage_Create" xml:space="preserve">
+    <value>Vytvořit profil</value>
+  </data>
+  <data name="QuickProfilesPage_Waiting" xml:space="preserve">
+    <value>Čekání na proces v popředí...</value>
+  </data>
+  <data name="ServiceDescription" xml:space="preserve">
+    <value>Poskytuje podporu gyroskopu a akcelerometru kapesním herním počítačům Windows prostřednictvím virtuálního ovladače. Pokud je služba povolena, vestavěný ovladač bude maskován pro aplikace mimo bílou listinu. Pokud je služba zakázána, vestavěný řadič bude odmaskován a virtuální řadič deaktivován.</value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Služba ovladače</value>
+  </data>
+  <data name="SettingsPage_AppLanguage" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="SettingsPage_AppLanguageDesc" xml:space="preserve">
+    <value>Jazyk aplikace</value>
+  </data>
+  <data name="SettingsPage_AppLanguageWarning" xml:space="preserve">
+    <value>Je vyžadován restart</value>
+  </data>
+  <data name="SettingsPage_AppLanguageWarningDesc" xml:space="preserve">
+    <value>Aby se změny projevily, restartujte prosím aplikaci</value>
+  </data>
+  <data name="SettingsPage_AppTheme" xml:space="preserve">
+    <value>Téma aplikace</value>
+  </data>
+  <data name="SettingsPage_AppThemeDesc" xml:space="preserve">
+    <value>Téma aplikace, světlý nebo tmavý režim</value>
+  </data>
+  <data name="SettingsPage_AutoStartApp" xml:space="preserve">
+    <value>Automatické spuštění aplikace</value>
+  </data>
+  <data name="SettingsPage_AutoStartAppDesc" xml:space="preserve">
+    <value>Aplikace se spustí automaticky, když se přihlásím do Windows</value>
+  </data>
+  <data name="SettingsPage_Backdrop" xml:space="preserve">
+    <value>Pozadí aplikace</value>
+  </data>
+  <data name="SettingsPage_BackdropAcrylic" xml:space="preserve">
+    <value>Akryl</value>
+  </data>
+  <data name="SettingsPage_BackdropDesc" xml:space="preserve">
+    <value>Pozadí aplikace, žádné, slída, záložka, akryl</value>
+  </data>
+  <data name="SettingsPage_BackdropMica" xml:space="preserve">
+    <value>Slída</value>
+  </data>
+  <data name="SettingsPage_BackdropNone" xml:space="preserve">
+    <value>Žádný</value>
+  </data>
+  <data name="SettingsPage_BackdropTabbed" xml:space="preserve">
+    <value>Tabbed</value>
+  </data>
+  <data name="SettingsPage_CheckForUpdates" xml:space="preserve">
+    <value>Kontrola aktualizací</value>
+  </data>
+  <data name="SettingsPage_CloseMinimizes" xml:space="preserve">
+    <value>Zavřít minimalizuje</value>
+  </data>
+  <data name="SettingsPage_CloseMinimizesDesc" xml:space="preserve">
+    <value>Aplikace bude minimalizována namísto zavření</value>
+  </data>
+  <data name="SettingsPage_EnableDesktopProfileOnStart" xml:space="preserve">
+    <value>Při spuštění povolte profil plochy</value>
+  </data>
+  <data name="SettingsPage_EnableDesktopProfileOnStartDesc" xml:space="preserve">
+    <value>Profil plochy bude automaticky povolen při spuštění aplikace</value>
+  </data>
+  <data name="SettingsPage_Download" xml:space="preserve">
+    <value>Stažení</value>
+  </data>
+  <data name="SettingsPage_DownloadingPercentage" xml:space="preserve">
+    <value>Stahování -</value>
+  </data>
+  <data name="SettingsPage_EcoQoS" xml:space="preserve">
+    <value>Inteligentní účinnost</value>
+  </data>
+  <data name="SettingsPage_EcoQoSDesc" xml:space="preserve">
+    <value>Režim inteligentní účinnosti snižuje prioritu procesů na pozadí a zlepšuje energetickou účinnost</value>
+  </data>
+  <data name="SettingsPage_GeneralOptions" xml:space="preserve">
+    <value>Obecné možnosti</value>
+  </data>
+  <data name="SettingsPage_InstallNow" xml:space="preserve">
+    <value>Nainstalovat nyní</value>
+  </data>
+  <data name="SettingsPage_LastChecked" xml:space="preserve">
+    <value>Naposledy zkontrolováno:</value>
+  </data>
+  <data name="SettingsPage_NotificationOptions" xml:space="preserve">
+    <value>Možnosti oznámení</value>
+  </data>
+  <data name="SettingsPage_OpenAppBackground" xml:space="preserve">
+    <value>Otevřete aplikaci na pozadí</value>
+  </data>
+  <data name="SettingsPage_OpenAppBackgroundDesc" xml:space="preserve">
+    <value>Aplikace se zpočátku spustí minimalizovaná a zobrazí se na hlavním panelu</value>
+  </data>
+  <data name="SettingsPage_SensorExternal" xml:space="preserve">
+    <value>Externí</value>
+  </data>
+  <data name="SettingsPage_SensorInternal" xml:space="preserve">
+    <value>Vnitřní</value>
+  </data>
+  <data name="SettingsPage_SensorOptions" xml:space="preserve">
+    <value>Možnosti senzoru</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="SettingsPage_SensorPlacementDirection" xml:space="preserve">
+    <value>Směr umístění externího snímače</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="SettingsPage_SensorPlacementDirectionDesc" xml:space="preserve">
+    <value>Vyberte, na kterou stranu zařízení byl senzor namontován</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="SettingsPage_SensorPlacementUpsideDown" xml:space="preserve">
+    <value>Externí senzor vzhůru nohama</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="SettingsPage_SensorPlacementUpsideDownDesc" xml:space="preserve">
+    <value>Senzor byl namontován obráceně, možné s převodníkem USB-C</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="SettingsPage_SensorSelection" xml:space="preserve">
+    <value>Výběr senzoru</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="SettingsPage_SensorSelectionDesc" xml:space="preserve">
+    <value>Vyberte požadovaný snímač použitý pro vstup pohybu</value>
+    <comment>Translate</comment>
+  </data>
+  <data name="SettingsPage_Settings" xml:space="preserve">
+    <value>Nastavení</value>
+  </data>
+  <data name="SettingsPage_StartupType" xml:space="preserve">
+    <value>Typ spouštění</value>
+  </data>
+  <data name="SettingsPage_StartupTypeDesc" xml:space="preserve">
+    <value>Používá se správcem služeb k definování typu spouštění služby</value>
+  </data>
+  <data name="SettingsPage_TDPMax" xml:space="preserve">
+    <value>Maximální výkon</value>
+  </data>
+  <data name="SettingsPage_TDPMaxDesc" xml:space="preserve">
+    <value>Maximální výkon ve wattech dodávaný procesoru</value>
+  </data>
+  <data name="SettingsPage_TDPMin" xml:space="preserve">
+    <value>Minimální výkon</value>
+  </data>
+  <data name="SettingsPage_TDPMinDesc" xml:space="preserve">
+    <value>Minimální výkon ve wattech dodávaný procesoru</value>
+  </data>
+  <data name="SettingsPage_TDPRangeOverride" xml:space="preserve">
+    <value>Přepsání konfigurovatelného napájení (cTDP).</value>
+  </data>
+  <data name="SettingsPage_TDPRangeOverrideDesc" xml:space="preserve">
+    <value>Umožňuje upravit hodnoty minimálního a maximálního výkonu (TDP) nad rámec specifikací CPU</value>
+  </data>
+  <data name="SettingsPage_ThemeDark" xml:space="preserve">
+    <value>Temný</value>
+  </data>
+  <data name="SettingsPage_ThemeLight" xml:space="preserve">
+    <value>Světlo</value>
+  </data>
+  <data name="SettingsPage_ToastNotification" xml:space="preserve">
+    <value>Upozornění na přípitek</value>
+  </data>
+  <data name="SettingsPage_ToastNotificationDesc" xml:space="preserve">
+    <value>Získejte upozornění z aplikace v centru akcí Windows</value>
+  </data>
+  <data name="SettingsPage_UpdateAvailable" xml:space="preserve">
+    <value>Dostupné aktualizace</value>
+  </data>
+  <data name="SettingsPage_UpdateCheck" xml:space="preserve">
+    <value>Kontrola aktualizací...</value>
+  </data>
+  <data name="SettingsPage_UpdateFailedDownload" xml:space="preserve">
+    <value>Aktualizační soubor se nepodařilo stáhnout.</value>
+  </data>
+  <data name="SettingsPage_UpdateFailedGithub" xml:space="preserve">
+    <value>Nemohli jsme se dostat na github.</value>
+  </data>
+  <data name="SettingsPage_UpdateFailedInstall" xml:space="preserve">
+    <value>Aktualizační soubor se nám nepodařilo najít.</value>
+  </data>
+  <data name="SettingsPage_UpdateWarning" xml:space="preserve">
+    <value>Ups. Došlo k problému.</value>
+  </data>
+  <data name="SettingsPage_UpToDate" xml:space="preserve">
+    <value>Jste aktuální</value>
+  </data>
+  <data name="ToastNewControllerEx" xml:space="preserve">
+    <value>Ovladač je nyní maskovaný a vstupy jsou předávány virtuálnímu ovladači</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Uživatel</value>
+  </data>
+  <data name="WarningElevated" xml:space="preserve">
+    <value>Chcete-li tato nastavení odemknout, spusťte tento nástroj jako správce</value>
+  </data>
+  <data name="ControllerPage_SteamControllerMute" xml:space="preserve">
+    <value>Ztlumit virtuální ovladač</value>
+  </data>
+  <data name="ControllerPage_SteamControllerMuteDesc" xml:space="preserve">
+    <value>Ztlumení virtuálního ovladače u aplikací souvisejících se službou Steam</value>
+  </data>
+  <data name="ProfilesPage_ControllerSettings" xml:space="preserve">
+    <value>Nastavení ovladače</value>
+  </data>
+  <data name="ProfilesPage_ControllerSettingsDesc" xml:space="preserve">
+    <value>Změňte nastavení virtuálního ovladače</value>
+  </data>
+  <data name="ProfilesPage_UMCAntiDeadzone" xml:space="preserve">
+    <value>Pohyb proti mrtvé zóně</value>
+  </data>
+  <data name="ProfilesPage_UMCAntiDeadzoneDesc" xml:space="preserve">
+    <value>Kompenzujte mrtvou zónu ve hře, zlepšujte registraci malých pohybů</value>
+  </data>
+  <data name="ProfilesPage_ThumbImproveCircularityDesc" xml:space="preserve">
+    <value>Zlepšete kruhovitost tyče</value>
+  </data>
+  <data name="ProfilesPage_ThumbImproveCircularityLeft" xml:space="preserve">
+    <value>Kruhová tyč vlevo</value>
+  </data>
+  <data name="ProfilesPage_ThumbImproveCircularityRight" xml:space="preserve">
+    <value>Kruhový držák vpravo</value>
+  </data>
+  <data name="ProfilesPage_JoystickDeadZoneLeft" xml:space="preserve">
+    <value>Zbývá % mrtvé zóny joysticku</value>
+  </data>
+  <data name="ProfilesPage_JoystickDeadZoneLeftDesc" xml:space="preserve">
+    <value>Upravte procento vnitřní a vnější mrtvé zóny levého joysticku</value>
+  </data>
+  <data name="ProfilesPage_JoystickDeadZoneRight" xml:space="preserve">
+    <value>Mrtvá zóna joysticku % vpravo</value>
+  </data>
+  <data name="ProfilesPage_JoystickDeadZoneRightDesc" xml:space="preserve">
+    <value>Upravte procento vnitřní a vnější mrtvé zóny pravého joysticku</value>
+  </data>
+  <data name="ProfilesPage_TriggerDeadZoneLeft" xml:space="preserve">
+    <value>mrtvá zóna levého spouštěče</value>
+  </data>
+  <data name="ProfilesPage_TriggerDeadZoneLeftDesc" xml:space="preserve">
+    <value>Upravte procento vnitřní a vnější mrtvé zóny levé spouště</value>
+  </data>
+  <data name="ProfilesPage_TriggerDeadZoneRight" xml:space="preserve">
+    <value>mrtvá zóna pravého spouštěče</value>
+  </data>
+  <data name="ProfilesPage_TriggerDeadZoneRightDesc" xml:space="preserve">
+    <value>Upravte procento vnitřní a vnější mrtvé zóny pravé spouště</value>
+  </data>
+  <data name="ControllerPage_VibrateDevice" xml:space="preserve">
+    <value>Ovladač vibrací při připojení</value>
+  </data>
+  <data name="ControllerPage_VibrateDeviceDesc" xml:space="preserve">
+    <value>Vibrovat fyzický ovladač při připojení</value>
+  </data>
+  <data name="InputsHotkey_DesktopLayoutEnabled" xml:space="preserve">
+    <value>Rozvržení plochy</value>
+  </data>
+  <data name="InputsHotkey_DesktopLayoutEnabledDesc" xml:space="preserve">
+    <value>Přepnout rozložení ovladače plochy</value>
+  </data>
+  <data name="InputsHotkey_shortcutControlCenter" xml:space="preserve">
+    <value>Zobrazit centrum akcí</value>
+  </data>
+  <data name="InputsHotkey_shortcutControlCenterDesc" xml:space="preserve">
+    <value>Zobrazení a skrytí centra akcí systému Windows</value>
+  </data>
+  <data name="ProfilesPage_ControllerLayout" xml:space="preserve">
+    <value>Rozložení ovladače</value>
+  </data>
+  <data name="InputsHotkey_QuietModeToggled" xml:space="preserve">
+    <value>Vyřazení ventilátoru</value>
+  </data>
+  <data name="InputsHotkey_QuietModeToggledDesc" xml:space="preserve">
+    <value>Nastavte pracovní cyklus ventilátoru na uživatelem definovanou hodnotu</value>
+  </data>
+  <data name="InputsHotkey_OnScreenDisplay" xml:space="preserve">
+    <value>Displej na obrazovce</value>
+  </data>
+  <data name="InputsHotkey_OnScreenDisplayDesc" xml:space="preserve">
+    <value>Povolit podporu zobrazení na obrazovce</value>
+  </data>
+  <data name="InputsHotkey_decreaseBrightness" xml:space="preserve">
+    <value>Snížit jas</value>
+  </data>
+  <data name="InputsHotkey_decreaseBrightnessDesc" xml:space="preserve">
+    <value>Snížit aktuální jas displeje o 5 %</value>
+  </data>
+  <data name="InputsHotkey_decreaseVolume" xml:space="preserve">
+    <value>Snížit hlasitost</value>
+  </data>
+  <data name="InputsHotkey_decreaseVolumeDesc" xml:space="preserve">
+    <value>Snížit hlasitost systému o 5 %</value>
+  </data>
+  <data name="InputsHotkey_increaseBrightness" xml:space="preserve">
+    <value>Zvyšte jas</value>
+  </data>
+  <data name="InputsHotkey_increaseBrightnessDesc" xml:space="preserve">
+    <value>Zvýšit aktuální jas displeje o 5 %</value>
+  </data>
+  <data name="InputsHotkey_increaseVolume" xml:space="preserve">
+    <value>Zvyšte hlasitost</value>
+  </data>
+  <data name="InputsHotkey_increaseVolumeDesc" xml:space="preserve">
+    <value>Zvýšit hlasitost systému o 5 %</value>
+  </data>
+  <data name="ProfilesPage_AutoTDP" xml:space="preserve">
+    <value>Automatické TDP</value>
+  </data>
+  <data name="ProfilesPage_AutoTDPDesc" xml:space="preserve">
+    <value>Automatické nastavení TDP na základě naměřených FPS a požadovaného cíle FPS</value>
+  </data>
+  <data name="ProfilesPage_AutoTDPFPS" xml:space="preserve">
+    <value>Cílová snímková frekvence</value>
+  </data>
+  <data name="ProfilesPage_AutoTDPFPSDesc" xml:space="preserve">
+    <value>Požadovaná cílová hodnota FPS pro automatický regulátor TDP</value>
+  </data>
+  <data name="ProfilesPage_GPUMhz" xml:space="preserve">
+    <value>Maximální frekvence hodin GPU</value>
+  </data>
+  <data name="ProfilesPage_GPUMhzDesc" xml:space="preserve">
+    <value>Maximální takt GPU v Mhz</value>
+  </data>
+  <data name="QuickPerformancePage_AutoTDPUnitFPS" xml:space="preserve">
+    <value>FPS</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevel" xml:space="preserve">
+    <value>Úroveň překryvného zobrazení</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevelDesc" xml:space="preserve">
+    <value>Změňte úroveň informací na obrazovce</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayUpdateRate" xml:space="preserve">
+    <value>Rychlost aktualizace</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayUpdateRateDesc" xml:space="preserve">
+    <value>Změňte rychlost aktualizace zobrazení na obrazovce</value>
+  </data>
+  <data name="ProfilesPage_FramerateLimit" xml:space="preserve">
+    <value>Limit snímkové frekvence</value>
+  </data>
+  <data name="ProfilesPage_FramerateLimitDesc" xml:space="preserve">
+    <value>Omezuje snímkovou frekvenci pro 3D aplikace</value>
+  </data>
+  <data name="InputsHotkey_shortcutPrintScreen" xml:space="preserve">
+    <value>Otevřete nástroj Výstřižky</value>
+  </data>
+  <data name="InputsHotkey_shortcutPrintScreenDesc" xml:space="preserve">
+    <value>Stiskněte tuto klávesu: Windows + Shift + S</value>
+  </data>
+  <data name="MainWindow_navHotkeys" xml:space="preserve">
+    <value>Klávesové zkratky</value>
+  </data>
+  <data name="SettingsPage_ThemeDefault" xml:space="preserve">
+    <value>Použijte systémové nastavení</value>
+  </data>
+  <data name="ButtonsPage_ABXY" xml:space="preserve">
+    <value>A, B, X, Y</value>
+  </data>
+  <data name="ButtonsPage_Back_Grips" xml:space="preserve">
+    <value>ZADNÍ ÚCHYTKY</value>
+  </data>
+  <data name="ButtonsPage_Bumpers" xml:space="preserve">
+    <value>NÁRAZNÍKY</value>
+  </data>
+  <data name="ButtonsPage_Menu" xml:space="preserve">
+    <value>MENU</value>
+  </data>
+  <data name="ButtonsPage_OEM" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="DPadPage_DPad" xml:space="preserve">
+    <value>SMĚROVÁ PODLOŽKA</value>
+  </data>
+  <data name="JoystickPage_Joystick_Left" xml:space="preserve">
+    <value>LEVÝ JOYSTICK</value>
+  </data>
+  <data name="JoystickPage_Joystick_Left_Buttons" xml:space="preserve">
+    <value>LEVÁ TLAČÍTKA JOYSTIKU</value>
+  </data>
+  <data name="JoystickPage_Joystick_Right" xml:space="preserve">
+    <value>PRAVÝ JOYSTICK</value>
+  </data>
+  <data name="JoystickPage_Joystick_Right_Buttons" xml:space="preserve">
+    <value>PRAVÁ TLAČÍTKA JOYSTIKU</value>
+  </data>
+  <data name="TrackPadsPage_Trackpad_Left" xml:space="preserve">
+    <value>LEVÝ TRACKPAD</value>
+  </data>
+  <data name="TrackPadsPage_Trackpad_Left_Buttons" xml:space="preserve">
+    <value>LEVÁ TLAČÍTKA TRACKPADU</value>
+  </data>
+  <data name="TrackPadsPage_Trackpad_Right" xml:space="preserve">
+    <value>PRAVÝ TRACKPAD</value>
+  </data>
+  <data name="TrackPadsPage_Trackpad_Right_Buttons" xml:space="preserve">
+    <value>PRAVÁ TLAČÍTKA TRACKPADU</value>
+  </data>
+  <data name="TriggersPage_Trigger_Left" xml:space="preserve">
+    <value>LEVÝ SPUŠTĚČ</value>
+  </data>
+  <data name="TriggersPage_Trigger_Left_Button" xml:space="preserve">
+    <value>LEVÁ TLAČÍTKA SPUŠTĚNÍ</value>
+  </data>
+  <data name="TriggersPage_Trigger_Right" xml:space="preserve">
+    <value>PRAVÝ SPUŠTĚČ</value>
+  </data>
+  <data name="TriggersPage_Trigger_Right_Button" xml:space="preserve">
+    <value>PRAVÁ SPUŠTĚCÍ TLAČÍTKA</value>
+  </data>
+  <data name="AboutPage_Partner" xml:space="preserve">
+    <value>Partner</value>
+  </data>
+  <data name="Dialog_Yes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="Dialog_No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Dialog_ForceRestartDesc" xml:space="preserve">
+    <value>Aby se změny projevily, musí být vaše zařízení restartováno. Chcete nyní restartovat?</value>
+  </data>
+  <data name="Dialog_ForceRestartTitle" xml:space="preserve">
+    <value>Je vyžadován restart</value>
+  </data>
+  <data name="SettingsPage_ControllerManagementDependencyPrimary" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="SettingsPage_ControllerManagementDependencySecondary" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="SettingsPage_ControllerManagementDependencyText" xml:space="preserve">
+    <value>Zakázáním tohoto nastavení také zakážete "Zlepšit detekci virtuálního ovladače". Chceš pokračovat?</value>
+  </data>
+  <data name="SettingsPage_ControllerManagementDependencyTitle" xml:space="preserve">
+    <value>Varování</value>
+  </data>
+  <data name="MainWindow_ControllerManagementClosePrimary" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="MainWindow_ControllerManagementCloseSecondary" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="MainWindow_ControllerManagementCloseText" xml:space="preserve">
+    <value>Vylepšená detekce virtuálního ovladače nemusí fungovat, pokud zavřete Handheld Companion. Jste si jistí ?</value>
+  </data>
+  <data name="MainWindow_ControllerManagementCloseTitle" xml:space="preserve">
+    <value>Varování</value>
+  </data>
+  <data name="AboutPage_Manufacturer" xml:space="preserve">
+    <value>Výrobce</value>
+  </data>
+  <data name="AboutPage_ProductName" xml:space="preserve">
+    <value>Jméno výrobku</value>
+  </data>
+  <data name="ControllerPage_NoPhysicalControllerWarning" xml:space="preserve">
+    <value>Není připojen žádný fyzický ovladač</value>
+  </data>
+  <data name="ControllerPage_DesktopLayout" xml:space="preserve">
+    <value>Rozvržení plochy</value>
+  </data>
+  <data name="ControllerPage_DesktopLayoutDefine" xml:space="preserve">
+    <value>Definujte rozvržení pracovní plochy</value>
+  </data>
+  <data name="ControllerPage_DesktopLayoutDefineController" xml:space="preserve">
+    <value>Definujte rozvržení ovladače v režimu plochy</value>
+  </data>
+  <data name="ControllerPage_DesktopLayoutEdit" xml:space="preserve">
+    <value>Upravit</value>
+  </data>
+  <data name="ControllerPage_DesktopLayoutEnable" xml:space="preserve">
+    <value>Povolit rozložení plochy</value>
+  </data>
+  <data name="ControllerPage_NonGameControllerLayouts" xml:space="preserve">
+    <value>Rozložení neherního ovladače</value>
+  </data>
+  <data name="ControllerPage_NoPhysicalControllerAction" xml:space="preserve">
+    <value>Možná budete chtít kliknout na Connect vedle vašeho připojeného ovladače.</value>
+  </data>
+  <data name="ControllerPage_NoPhysicalControllerDesc" xml:space="preserve">
+    <value>Nemáte připojený žádný fyzický ovladač. Do HC nebo jeho služby nebudou odesílány žádné vstupy.</value>
+  </data>
+  <data name="ControllerPage_NoPhysicalControllerDetectedAction" xml:space="preserve">
+    <value>Ujistěte se, že jste připojili kompatibilní zařízení XInput nebo DInput.</value>
+  </data>
+  <data name="ControllerPage_NoPhysicalControllerDetectedWarning" xml:space="preserve">
+    <value>Nebyl zjištěn žádný fyzický ovladač</value>
+  </data>
+  <data name="ControllerPage_NoVirtualControllerAction" xml:space="preserve">
+    <value>Možná budete chtít spustit doprovodnou službu nebo se ujistit, že stav vašeho virtuálního řadiče je nastaven na: Připojeno</value>
+  </data>
+  <data name="ControllerPage_NoVirtualControllerDesc" xml:space="preserve">
+    <value>Váš fyzický ovladač je skrytý, ale nemáte k dispozici žádný virtuální ovladač. Do her nebudou odesílány žádné vstupy.</value>
+  </data>
+  <data name="ControllerPage_NoVirtualControllerWarning" xml:space="preserve">
+    <value>Nebyl zjištěn žádný virtuální ovladač</value>
+  </data>
+  <data name="ControllerPage_PhysicalControllerHiddenAction" xml:space="preserve">
+    <value>Možná budete chtít zrušit zvuk vašeho virtuálního ovladače nebo odkrýt fyzický ovladač.</value>
+  </data>
+  <data name="ControllerPage_PhysicalControllerHiddenDesc" xml:space="preserve">
+    <value>Váš fyzický ovladač je skrytý, přesto jste svůj virtuální ovladač ztlumili.</value>
+  </data>
+  <data name="ControllerPage_PhysicalControllerHiddenWarning" xml:space="preserve">
+    <value>Fyzický ovladač je skrytý</value>
+  </data>
+  <data name="ControllerPage_PhysicalControllerNotHiddenAction" xml:space="preserve">
+    <value>Možná budete chtít skrýt svůj fyzický ovladač nebo ztlumit svůj virtuální ovladač.</value>
+  </data>
+  <data name="ControllerPage_PhysicalControllerNotHiddenDesc" xml:space="preserve">
+    <value>Váš fyzický ovladač není skrytý, přesto máte neztlumený virtuální ovladač. Ve hrách se můžete setkat s dvojitým vstupem.</value>
+  </data>
+  <data name="ControllerPage_PhysicalControllerNotHiddenWarning" xml:space="preserve">
+    <value>Fyzický ovladač není skrytý</value>
+  </data>
+  <data name="ControllerPage_SteamControllerHDRumble" xml:space="preserve">
+    <value>HD vibrace</value>
+  </data>
+  <data name="ControllerPage_SteamControllerHDRumbleDesc" xml:space="preserve">
+    <value>Použijte duální engine s vysokým rozlišením za cenu vyššího využití CPU</value>
+  </data>
+  <data name="ControllerPage_PhysicalDeviceSettings" xml:space="preserve">
+    <value>Nastavení fyzických ovladačů</value>
+  </data>
+  <data name="LayoutPage_ApplyTemplate" xml:space="preserve">
+    <value>Použít šablonu</value>
+  </data>
+  <data name="LayoutPage_Buttons" xml:space="preserve">
+    <value>Tlačítka</value>
+  </data>
+  <data name="LayoutPage_Cancel" xml:space="preserve">
+    <value>zrušení</value>
+  </data>
+  <data name="LayoutPage_Community" xml:space="preserve">
+    <value>SPOLEČENSTVÍ</value>
+  </data>
+  <data name="LayoutPage_Confirm" xml:space="preserve">
+    <value>Potvrdit</value>
+  </data>
+  <data name="LayoutPage_Dpad" xml:space="preserve">
+    <value>Dpad</value>
+  </data>
+  <data name="LayoutPage_ExportCurrentController" xml:space="preserve">
+    <value>Export pro aktuální ovladač</value>
+  </data>
+  <data name="LayoutPage_ExportLayout" xml:space="preserve">
+    <value>Export rozložení</value>
+  </data>
+  <data name="LayoutPage_Gyro" xml:space="preserve">
+    <value>Gyroskop</value>
+  </data>
+  <data name="LayoutPage_Joysticks" xml:space="preserve">
+    <value>Joysticky</value>
+  </data>
+  <data name="LayoutPage_LayoutAuthor" xml:space="preserve">
+    <value>Autor rozložení</value>
+  </data>
+  <data name="LayoutPage_LayoutDesc" xml:space="preserve">
+    <value>Popis rozložení</value>
+  </data>
+  <data name="LayoutPage_LayoutTitle" xml:space="preserve">
+    <value>Název rozložení</value>
+  </data>
+  <data name="LayoutPage_SaveGameInfoLayout" xml:space="preserve">
+    <value>Uložte informace o hře s rozložením</value>
+  </data>
+  <data name="LayoutPage_ShowCurrentControllerTemplates" xml:space="preserve">
+    <value>Zobrazit pouze aktuální šablony ovladače</value>
+  </data>
+  <data name="LayoutPage_TemplatePicker" xml:space="preserve">
+    <value>Výběr šablony rozvržení</value>
+  </data>
+  <data name="LayoutPage_Templates" xml:space="preserve">
+    <value>ŠABLONY</value>
+  </data>
+  <data name="LayoutPage_Trackpads" xml:space="preserve">
+    <value>Trackpady</value>
+  </data>
+  <data name="LayoutPage_Triggers" xml:space="preserve">
+    <value>Spouštěče</value>
+  </data>
+  <data name="OverlayPage_Millisecond" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevel_Disabled" xml:space="preserve">
+    <value>Zakázáno</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevel_Extended" xml:space="preserve">
+    <value>Rozšířené</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevel_Full" xml:space="preserve">
+    <value>Plný</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevel_Minimal" xml:space="preserve">
+    <value>Minimální</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevel_Custom" xml:space="preserve">
+    <value>Vlastní</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayLevel_External" xml:space="preserve">
+    <value>Externí</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayCustomLevel_Disabled" xml:space="preserve">
+    <value>Zakázáno</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayCustomLevel_Full" xml:space="preserve">
+    <value>Plný</value>
+  </data>
+  <data name="OverlayPage_OverlayDisplayCustomLevel_Minimal" xml:space="preserve">
+    <value>Minimální</value>
+  </data>
+  <data name="OverlayPage_CustomSettings" xml:space="preserve">
+    <value>Vlastní nastavení</value>
+  </data>
+  <data name="OverlayPage_TimeLevel" xml:space="preserve">
+    <value>Časová úroveň</value>
+  </data>
+  <data name="OverlayPage_TimeLevelDesc" xml:space="preserve">
+    <value>Úroveň informací pro váš čas.</value>
+  </data>
+  <data name="OverlayPage_FPSLevel" xml:space="preserve">
+    <value>Úroveň FPS</value>
+  </data>
+  <data name="OverlayPage_FPSLevelDesc" xml:space="preserve">
+    <value>Úroveň informací pro vaše FPS.</value>
+  </data>
+  <data name="OverlayPage_CPULevel" xml:space="preserve">
+    <value>Úroveň CPU</value>
+  </data>
+  <data name="OverlayPage_CPULevelDesc" xml:space="preserve">
+    <value>Úroveň informací pro váš CPU.</value>
+  </data>
+  <data name="OverlayPage_RAMLevel" xml:space="preserve">
+    <value>Úroveň RAM</value>
+  </data>
+  <data name="OverlayPage_RAMLevelDesc" xml:space="preserve">
+    <value>Úroveň informací pro vaši RAM.</value>
+  </data>
+  <data name="OverlayPage_GPULevel" xml:space="preserve">
+    <value>Úroveň GPU</value>
+  </data>
+  <data name="OverlayPage_GPULevelDesc" xml:space="preserve">
+    <value>Úroveň informací pro váš GPU.</value>
+  </data>
+  <data name="OverlayPage_VRAMLevel" xml:space="preserve">
+    <value>Úroveň VRAM</value>
+  </data>
+  <data name="OverlayPage_VRAMLevelDesc" xml:space="preserve">
+    <value>Úroveň informací pro vaši VRAM.</value>
+  </data>
+  <data name="OverlayPage_BATTLevel" xml:space="preserve">
+    <value>Úroveň baterie</value>
+  </data>
+  <data name="OverlayPage_BATTLevelDesc" xml:space="preserve">
+    <value>Úroveň informací pro vaši baterii.</value>
+  </data>
+  <data name="ProfilesPage_ControllerLayoutDesc" xml:space="preserve">
+    <value>Změňte rozložení virtuálního ovladače</value>
+  </data>
+  <data name="ProfilesPage_CPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="ProfilesPage_EPP" xml:space="preserve">
+    <value>Preference energetické náročnosti (EPP)</value>
+  </data>
+  <data name="ProfilesPage_EPPBalance" xml:space="preserve">
+    <value>Vyvážení výkonu CPU/GPU</value>
+  </data>
+  <data name="ProfilesPage_EPPDesc" xml:space="preserve">
+    <value>Určuje zásady distribuce energie mezi CPU a GPU</value>
+  </data>
+  <data name="ProfilesPage_GPU" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="ProfilesPage_PowerLimitTarget" xml:space="preserve">
+    <value>Cílový limit výkonu</value>
+  </data>
+  <data name="SettingsPage_NativeDisplayOrientation" xml:space="preserve">
+    <value>Nativní orientace displeje</value>
+  </data>
+  <data name="SettingsPage_NativeDisplayOrientationDesc" xml:space="preserve">
+    <value>Správné fungování některých funkcí závisí na znalosti orientace nativního zobrazení. Pokud to nebylo správně detekováno, nastavte orientaci displeje na orientaci, která odpovídá vašemu ovladači, a klikněte na Detect</value>
+  </data>
+  <data name="SettingsPage_NativeDisplayOrientationDetect" xml:space="preserve">
+    <value>Zjistit</value>
+  </data>
+  <data name="SettingsPage_NativeDisplayOrientationNotSet" xml:space="preserve">
+    <value>Nenastaveno</value>
+  </data>
+  <data name="QuickPerformancePage_CPUBoostMode" xml:space="preserve">
+    <value>Režim zvýšení CPU</value>
+  </data>
+  <data name="QuickPerformancePage_CPUBoostModeDesc" xml:space="preserve">
+    <value>Nastavte aktuální režim zvýšení CPU</value>
+  </data>
+  <data name="QuickSettingsPage_DisplayResolution" xml:space="preserve">
+    <value>Rozlišení displeje</value>
+  </data>
+  <data name="QuickSettingsPage_DisplayResolutionDesc" xml:space="preserve">
+    <value>Upravte rozlišení hlavního displeje</value>
+  </data>
+  <data name="QuickPerformancePage_FanOverride" xml:space="preserve">
+    <value>Vyřazení ventilátoru</value>
+  </data>
+  <data name="QuickPerformancePage_FanOverrideDesc" xml:space="preserve">
+    <value>Nastavte pracovní cyklus ventilátoru na uživatelem definovanou hodnotu</value>
+  </data>
+  <data name="QuickPerformancePage_FanOverridePercentage" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="QuickProfilesPage_CurrentProfile" xml:space="preserve">
+    <value>Aktuální profil:</value>
+  </data>
+  <data name="QuickProfilesPage_CurrentProfileDefault" xml:space="preserve">
+    <value>Výchozí</value>
+  </data>
+  <data name="QuickProfilesPage_PowerLimitTarget" xml:space="preserve">
+    <value>Cílový limit výkonu</value>
+  </data>
+  <data name="SettingsPage_HideWhenLoseFocus" xml:space="preserve">
+    <value>Skrýt, když ztratí pozornost</value>
+  </data>
+  <data name="SettingsPage_HideWhenLoseFocusDesc" xml:space="preserve">
+    <value>Automaticky skrýt rychlé nástroje, když uživatel klikne mimo okno</value>
+  </data>
+  <data name="DevicePage_PowerOptions" xml:space="preserve">
+    <value>Možnosti napájení</value>
+  </data>
+  <data name="SettingsPage_QuickToolsBackdrop" xml:space="preserve">
+    <value>Pozadí Quicktools, žádné, slída, záložka, akryl</value>
+  </data>
+  <data name="SettingsPage_QuickToolsOptions" xml:space="preserve">
+    <value>Možnosti Quicktools</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocation" xml:space="preserve">
+    <value>Umístění okna</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocationBottomLeft" xml:space="preserve">
+    <value>Vlevo dole</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocationBottomRight" xml:space="preserve">
+    <value>Vpravo dole</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocationDesc" xml:space="preserve">
+    <value>Definujte umístění okna rychlých nástrojů</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocationTopLeft" xml:space="preserve">
+    <value>Vlevo nahoře</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocationTopRight" xml:space="preserve">
+    <value>Vpravo nahoře</value>
+  </data>
+  <data name="SettingsPage_RivaTunerStatisticsServer" xml:space="preserve">
+    <value>Statistický server RivaTuner</value>
+  </data>
+  <data name="SettingsPage_RivaTunerStatisticsServerDesc" xml:space="preserve">
+    <value>Automaticky vypnout RTSS při zavření doprovodu</value>
+  </data>
+  <data name="SettingsPage_SensorNone" xml:space="preserve">
+    <value>Žádný</value>
+  </data>
+  <data name="SettingsPage_ThirdPartyApps" xml:space="preserve">
+    <value>Aplikace třetích stran</value>
+  </data>
+  <data name="ProfilesPage_Wrapper_Disabled" xml:space="preserve">
+    <value>Zakázáno</value>
+  </data>
+  <data name="ProfilesPage_Wrapper_Injection" xml:space="preserve">
+    <value>Injekce (doporučeno)</value>
+  </data>
+  <data name="ProfilesPage_Wrapper_Redirection" xml:space="preserve">
+    <value>Přesměrování</value>
+  </data>
+  <data name="Enum_MotionInput_AutoRollYawSwap_Desc" xml:space="preserve">
+    <value>Tento vstup bude fungovat jako jednoduchý joystick. Ideální pro přenosné počítače a kapesní počítače typu véčko, automatická výměna natočení podle toho, jak je zařízení drženo (otevřeno na 90 nebo 180 stupňů).</value>
+  </data>
+  <data name="Enum_AYANEO2_ButtonFlags_OEM1" xml:space="preserve">
+    <value>AYA</value>
+  </data>
+  <data name="Enum_AYANEO2_ButtonFlags_OEM2" xml:space="preserve">
+    <value>≈</value>
+  </data>
+  <data name="Enum_AYANEO2_ButtonFlags_OEM3" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="Enum_AYANEO2_ButtonFlags_OEM4" xml:space="preserve">
+    <value>LC</value>
+  </data>
+  <data name="Enum_AYANEOAIR_ButtonFlags_OEM1" xml:space="preserve">
+    <value>AYA</value>
+  </data>
+  <data name="Enum_AYANEOAIR_ButtonFlags_OEM2" xml:space="preserve">
+    <value>≈</value>
+  </data>
+  <data name="Enum_AYANEOAIR_ButtonFlags_OEM3" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="Enum_AYANEOAIR_ButtonFlags_OEM4" xml:space="preserve">
+    <value>LC</value>
+  </data>
+  <data name="Enum_AYANEOAIRLite_ButtonFlags_OEM1" xml:space="preserve">
+    <value>AYA</value>
+  </data>
+  <data name="Enum_AYANEOAIRLite_ButtonFlags_OEM2" xml:space="preserve">
+    <value>≈</value>
+  </data>
+  <data name="Enum_AYANEOAIRLite_ButtonFlags_OEM3" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="Enum_AYANEOAIRLite_ButtonFlags_OEM4" xml:space="preserve">
+    <value>LC</value>
+  </data>
+  <data name="Enum_AYANEOAIRPro_ButtonFlags_OEM1" xml:space="preserve">
+    <value>AYA</value>
+  </data>
+  <data name="Enum_AYANEOAIRPro_ButtonFlags_OEM2" xml:space="preserve">
+    <value>≈</value>
+  </data>
+  <data name="Enum_AYANEOAIRPro_ButtonFlags_OEM3" xml:space="preserve">
+    <value>RC</value>
+  </data>
+  <data name="Enum_AYANEOAIRPro_ButtonFlags_OEM4" xml:space="preserve">
+    <value>LC</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_B1" xml:space="preserve">
+    <value>Křížek</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_B2" xml:space="preserve">
+    <value>Kruh</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_B3" xml:space="preserve">
+    <value>Čtverec</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_B4" xml:space="preserve">
+    <value>Trojúhelník</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_Back" xml:space="preserve">
+    <value>Podíl</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_Special" xml:space="preserve">
+    <value>Sony</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_Start" xml:space="preserve">
+    <value>Možnosti</value>
+  </data>
+  <data name="Enum_HIDmode_DualShock4Controller" xml:space="preserve">
+    <value>Emulovaný ovladač DualShock 4</value>
+  </data>
+  <data name="Enum_HIDmode_NoController" xml:space="preserve">
+    <value>Žádný emulovaný ovladač</value>
+  </data>
+  <data name="Enum_HIDmode_Xbox360Controller" xml:space="preserve">
+    <value>Emulovaný ovladač XBOX 360</value>
+  </data>
+  <data name="Enum_HIDstatus_Connected" xml:space="preserve">
+    <value>Připojeno</value>
+  </data>
+  <data name="Enum_HIDstatus_Disconnected" xml:space="preserve">
+    <value>Odpojeno</value>
+  </data>
+  <data name="Enum_Input_AutoRollYawSwap" xml:space="preserve">
+    <value>Auto Roll Yaw Swap</value>
+  </data>
+  <data name="Enum_Input_WorldSpace" xml:space="preserve">
+    <value>Světový prostor</value>
+    <comment>A traduire...</comment>
+  </data>
+  <data name="Enum_Input_JoystickSteering" xml:space="preserve">
+    <value>Joystick řízení</value>
+  </data>
+  <data name="Enum_Input_PlayerSpace" xml:space="preserve">
+    <value>Prostor pro hráče</value>
+    <comment>A traduire...</comment>
+  </data>
+  <data name="Enum_InputsHotkeyType_HC" xml:space="preserve">
+    <value>Handheld Companion</value>
+  </data>
+  <data name="Enum_InputsHotkeyType_Overlay" xml:space="preserve">
+    <value>Překryvná vrstva</value>
+  </data>
+  <data name="Enum_InputsHotkeyType_Quicktools" xml:space="preserve">
+    <value>Rychlé nástroje</value>
+  </data>
+  <data name="Enum_InputsHotkeyType_Windows" xml:space="preserve">
+    <value>Okna</value>
+  </data>
+  <data name="Enum_NeptuneController_ButtonFlags_B1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Enum_NeptuneController_ButtonFlags_B2" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Enum_NeptuneController_ButtonFlags_B3" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Enum_NeptuneController_ButtonFlags_B4" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Enum_NeptuneController_ButtonFlags_Back" xml:space="preserve">
+    <value>Pohled</value>
+  </data>
+  <data name="Enum_NeptuneController_ButtonFlags_Start" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Enum_Output_LeftStick" xml:space="preserve">
+    <value>Levý joystick</value>
+  </data>
+  <data name="Enum_Output_RightStick" xml:space="preserve">
+    <value>Pravý joystick</value>
+  </data>
+  <data name="Enum_ProfileErrorCode_Default" xml:space="preserve">
+    <value>Toto je váš výchozí profil. Tento profil bude použit pro všechny vaše aplikace, které nemají specifický profil. Některé možnosti vyžadující spustitelný soubor mohou být zakázány.</value>
+  </data>
+  <data name="Enum_ProfileErrorCode_MissingExecutable" xml:space="preserve">
+    <value>Jejda. Zdá se, že tento profil nemá spustitelný soubor. Jak je to vůbec možné?</value>
+  </data>
+  <data name="Enum_ProfileErrorCode_MissingPath" xml:space="preserve">
+    <value>Jejda. Zdá se, že tento profil nemá cestu k aplikaci. Některé možnosti vyžadující spustitelný soubor mohou být zakázány.</value>
+  </data>
+  <data name="Enum_ProfileErrorCode_MissingPermission" xml:space="preserve">
+    <value>Jejda. Zdá se, že nemáte potřebnou úroveň oprávnění k úpravě obsahu této aplikace. Ujistěte se, že jste tento program spustili v režimu správce.</value>
+  </data>
+  <data name="Enum_ProfileErrorCode_None" xml:space="preserve">
+    <value>Zde není nic k vidění.</value>
+  </data>
+  <data name="Enum_ProfileErrorCode_Running" xml:space="preserve">
+    <value>Jejda. Zdá se, že tento spustitelný soubor profilu běží. Některé možnosti vyžadující spustitelný soubor mohou být zakázány.</value>
+  </data>
+  <data name="Enum_QualityOfServiceLevel_Default" xml:space="preserve">
+    <value>Výchozí</value>
+  </data>
+  <data name="Enum_QualityOfServiceLevel_Eco" xml:space="preserve">
+    <value>Eco</value>
+  </data>
+  <data name="Enum_QualityOfServiceLevel_High" xml:space="preserve">
+    <value>Vysoký</value>
+  </data>
+  <data name="Enum_ServiceStartMode_Automatic" xml:space="preserve">
+    <value>Automatický</value>
+  </data>
+  <data name="Enum_ServiceStartMode_Disabled" xml:space="preserve">
+    <value>Zakázáno</value>
+  </data>
+  <data name="Enum_ServiceStartMode_Manual" xml:space="preserve">
+    <value>Manuál</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B2" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B3" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B4" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_Back" xml:space="preserve">
+    <value>Pohled</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_L1" xml:space="preserve">
+    <value>LB</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_R1" xml:space="preserve">
+    <value>RB</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_Special" xml:space="preserve">
+    <value>Průvodce</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_Start" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Enum_MotionInput_WorldSpace_Desc" xml:space="preserve">
+    <value>Vstup je mapován na osy herního světa a poskytuje konzistentní směrový vstup bez ohledu na orientaci postavy hráče.</value>
+  </data>
+  <data name="Enum_MotionInput_JoystickSteering_Desc" xml:space="preserve">
+    <value>Tento vstup bude fungovat jako joystick optimalizovaný pro ovládání volantu nebo závodní hry</value>
+  </data>
+  <data name="Enum_MotionInput_PlayerSpace_Desc" xml:space="preserve">
+    <value>Vstup je v souladu s orientací postavy hráče ve hře, což umožňuje intuitivní zaměřování a pohyb.</value>
+  </data>
+  <data name="Enum_InputsHotkeyType_Handheld" xml:space="preserve">
+    <value>Handheld Companion</value>
+  </data>
+  <data name="Enum_SteamDeck_ButtonFlags_OEM1" xml:space="preserve">
+    <value>Možnosti</value>
+  </data>
+  <data name="Enum_NeptuneController_ButtonFlags_Special" xml:space="preserve">
+    <value>STEAM</value>
+  </data>
+  <data name="Enum_ROGAlly_ButtonFlags_OEM1" xml:space="preserve">
+    <value>Velící středisko</value>
+  </data>
+  <data name="Enum_ROGAlly_ButtonFlags_OEM2" xml:space="preserve">
+    <value>Zbrojnice</value>
+  </data>
+  <data name="Enum_ROGAlly_ButtonFlags_OEM3" xml:space="preserve">
+    <value>M1</value>
+  </data>
+  <data name="Enum_AYANEO2021Pro_ButtonFlags_OEM1" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="Enum_AYANEO2021Pro_ButtonFlags_OEM2" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Enum_AYANEO2021Pro_ButtonFlags_OEM3" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="Enum_InputsHotkeyType_Custom" xml:space="preserve">
+    <value>Vlastní</value>
+  </data>
+  <data name="Enum_InputsHotkeyType_Device" xml:space="preserve">
+    <value>Zařízení</value>
+  </data>
+  <data name="Enum_MotionInput_AutoRollYawSwap" xml:space="preserve">
+    <value>Auto Roll Yaw Swap</value>
+  </data>
+  <data name="Enum_MotionInput_WorldSpace" xml:space="preserve">
+    <value>Světový prostor</value>
+  </data>
+  <data name="Enum_MotionInput_JoystickSteering" xml:space="preserve">
+    <value>Joystick řízení</value>
+  </data>
+  <data name="Enum_MotionInput_PlayerSpace" xml:space="preserve">
+    <value>Prostor pro hráče</value>
+  </data>
+  <data name="Enum_MotionOutput_LeftStick" xml:space="preserve">
+    <value>Levá páka</value>
+  </data>
+  <data name="Enum_MotionOutput_RightStick" xml:space="preserve">
+    <value>Pravá páka</value>
+  </data>
+  <data name="Enum_XInputController_AxisLayoutFlags_L2" xml:space="preserve">
+    <value>L2</value>
+  </data>
+  <data name="Enum_XInputController_AxisLayoutFlags_LeftThumb" xml:space="preserve">
+    <value>Levá páčka</value>
+  </data>
+  <data name="Enum_XInputController_AxisLayoutFlags_R2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="Enum_XInputController_AxisLayoutFlags_RightThumb" xml:space="preserve">
+    <value>Pravá páčka</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B5" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B6" xml:space="preserve">
+    <value>B6</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B7" xml:space="preserve">
+    <value>B7</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_B8" xml:space="preserve">
+    <value>B8</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_DPadDown" xml:space="preserve">
+    <value>DPad dolů</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_DPadLeft" xml:space="preserve">
+    <value>DPad vlevo</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_DPadRight" xml:space="preserve">
+    <value>DPad Vpravo</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_DPadUp" xml:space="preserve">
+    <value>DPad Up</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_L2" xml:space="preserve">
+    <value>L2</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_L3" xml:space="preserve">
+    <value>L3</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_L4" xml:space="preserve">
+    <value>L4</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_L5" xml:space="preserve">
+    <value>L5</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_LeftThumb" xml:space="preserve">
+    <value>Levá páčka</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_LeftThumbDown" xml:space="preserve">
+    <value>Levá páčka dolů</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_LeftThumbLeft" xml:space="preserve">
+    <value>Levá páčka doleva</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_LeftThumbRight" xml:space="preserve">
+    <value>Levá páčka doprava</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_LeftThumbUp" xml:space="preserve">
+    <value>Levá páčka nahoru</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_OEM1" xml:space="preserve">
+    <value>OEM1</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_OEM2" xml:space="preserve">
+    <value>OEM2</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_OEM3" xml:space="preserve">
+    <value>OEM3</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_R2" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_R3" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_R4" xml:space="preserve">
+    <value>R4</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_R5" xml:space="preserve">
+    <value>R5</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_RightThumb" xml:space="preserve">
+    <value>Pravá páčka</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_RightThumbDown" xml:space="preserve">
+    <value>Pravá páčka dolů</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_RightThumbLeft" xml:space="preserve">
+    <value>Pravá páčka doleva</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_RightThumbRight" xml:space="preserve">
+    <value>Pravá páčka vpravo</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_RightThumbUp" xml:space="preserve">
+    <value>Pravá páčka nahoru</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_AlwaysOn" xml:space="preserve">
+    <value>Vždy zapnuto</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_B" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_Back" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_DPadDown" xml:space="preserve">
+    <value>DPad dolů</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_DPadLeft" xml:space="preserve">
+    <value>DPad vlevo</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_DPadRight" xml:space="preserve">
+    <value>DPad Vpravo</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_DPadUp" xml:space="preserve">
+    <value>DPad Up</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_LeftShoulder" xml:space="preserve">
+    <value>Levé rameno</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_LeftThumb" xml:space="preserve">
+    <value>Levá páčka</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_LeftTrigger" xml:space="preserve">
+    <value>Levý spoušť</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_RightShoulder" xml:space="preserve">
+    <value>Pravé rameno</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_RightThumb" xml:space="preserve">
+    <value>Pravá páčka</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_RightTrigger" xml:space="preserve">
+    <value>Pravý spouštěč</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Enum_GamepadButtonFlagsExt_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Enum_ProfileErrorCode_IsRunning" xml:space="preserve">
+    <value>Jejda. Zdá se, že tento profil běží. Některé možnosti vyžadující spustitelný soubor mohou být zakázány.</value>
+  </data>
+  <data name="Enum_ProController_AxisLayoutFlags_L2" xml:space="preserve">
+    <value>ZL</value>
+  </data>
+  <data name="Enum_ProController_AxisLayoutFlags_R2" xml:space="preserve">
+    <value>ZR</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_B1" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_B2" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_B3" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_B4" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_Back" xml:space="preserve">
+    <value>Mínus</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_L1" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_R1" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_Special" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_Special2" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="Enum_ProController_ButtonFlags_Start" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="Enum_DS4Controller_AxisLayoutFlags_LeftPad" xml:space="preserve">
+    <value>Přejetí jedním dotykem</value>
+  </data>
+  <data name="Enum_DS4Controller_AxisLayoutFlags_RightPad" xml:space="preserve">
+    <value>Vícedotykové přejetí</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_LeftPadClick" xml:space="preserve">
+    <value>Kliknutí jediným dotykem</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_LeftPadTouch" xml:space="preserve">
+    <value>Jednodotykové klepnutí</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_RightPadClick" xml:space="preserve">
+    <value>Vícedotykové kliknutí</value>
+  </data>
+  <data name="Enum_DS4Controller_ButtonFlags_RightPadTouch" xml:space="preserve">
+    <value>Vícedotykové klepnutí</value>
+  </data>
+  <data name="Enum_DualSenseController_AxisLayoutFlags_LeftPad" xml:space="preserve">
+    <value>Přejetí jedním dotykem</value>
+  </data>
+  <data name="Enum_DualSenseController_AxisLayoutFlags_RightPad" xml:space="preserve">
+    <value>Vícedotykové přejetí</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_B1" xml:space="preserve">
+    <value>Křížek</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_B2" xml:space="preserve">
+    <value>Kruh</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_B3" xml:space="preserve">
+    <value>Čtverec</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_B4" xml:space="preserve">
+    <value>Trojúhelník</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_Back" xml:space="preserve">
+    <value>Sdílet</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_LeftPadClick" xml:space="preserve">
+    <value>Kliknutí jediným dotykem</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_LeftPadTouch" xml:space="preserve">
+    <value>Jednodotykové klepnutí</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_RightPadClick" xml:space="preserve">
+    <value>Vícedotykové kliknutí</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_RightPadTouch" xml:space="preserve">
+    <value>Vícedotykové klepnutí</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_Special" xml:space="preserve">
+    <value>Sony</value>
+  </data>
+  <data name="Enum_DualSenseController_ButtonFlags_Start" xml:space="preserve">
+    <value>Možnosti</value>
+  </data>
+  <data name="ProfilesPage_AreYouSureApplyTemplate1" xml:space="preserve">
+    <value>Opravdu chcete použít tuto šablonu? Všechna nastavení rozvržení budou přepsána.</value>
+  </data>
+  <data name="ProfilesPage_AreYouSureApplyTemplate2" xml:space="preserve">
+    <value>Tuto akci nelze vrátit zpět. Dříve použitá šablona: {0}</value>
+  </data>
+  <data name="Enum_KeyFlags_A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Enum_KeyFlags_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Enum_KeyFlags_Apostrophe" xml:space="preserve">
+    <value>Apostrof</value>
+  </data>
+  <data name="Enum_KeyFlags_B" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="Enum_KeyFlags_Backslash" xml:space="preserve">
+    <value>Obrácené lomítko</value>
+  </data>
+  <data name="Enum_KeyFlags_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Enum_KeyFlags_C" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="Enum_KeyFlags_Comma" xml:space="preserve">
+    <value>Čárka</value>
+  </data>
+  <data name="Enum_KeyFlags_Control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="Enum_KeyFlags_D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Enum_KeyFlags_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Enum_KeyFlags_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Enum_KeyFlags_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Enum_KeyFlags_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Enum_KeyFlags_Equal" xml:space="preserve">
+    <value>Rovnáse</value>
+  </data>
+  <data name="Enum_KeyFlags_Escape" xml:space="preserve">
+    <value>Escape</value>
+  </data>
+  <data name="Enum_KeyFlags_F" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="Enum_KeyFlags_F1" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="Enum_KeyFlags_F10" xml:space="preserve">
+    <value>F10</value>
+  </data>
+  <data name="Enum_KeyFlags_F11" xml:space="preserve">
+    <value>F11</value>
+  </data>
+  <data name="Enum_KeyFlags_F12" xml:space="preserve">
+    <value>F12</value>
+  </data>
+  <data name="Enum_KeyFlags_F2" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="Enum_KeyFlags_F3" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="Enum_KeyFlags_F4" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="Enum_KeyFlags_F5" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="Enum_KeyFlags_F6" xml:space="preserve">
+    <value>F6</value>
+  </data>
+  <data name="Enum_KeyFlags_F7" xml:space="preserve">
+    <value>F7</value>
+  </data>
+  <data name="Enum_KeyFlags_F8" xml:space="preserve">
+    <value>F8</value>
+  </data>
+  <data name="Enum_KeyFlags_F9" xml:space="preserve">
+    <value>F9</value>
+  </data>
+  <data name="Enum_KeyFlags_G" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="Enum_KeyFlags_Grave" xml:space="preserve">
+    <value>Grave</value>
+  </data>
+  <data name="Enum_KeyFlags_H" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="Enum_KeyFlags_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Enum_KeyFlags_I" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="Enum_KeyFlags_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Enum_KeyFlags_J" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="Enum_KeyFlags_K" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="Enum_KeyFlags_L" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Enum_KeyFlags_M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Enum_KeyFlags_Minus" xml:space="preserve">
+    <value>Mínus</value>
+  </data>
+  <data name="Enum_KeyFlags_N" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="Enum_KeyFlags_O" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="Enum_KeyFlags_P" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Enum_KeyFlags_Pause" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="Enum_KeyFlags_Period" xml:space="preserve">
+    <value>Tečka</value>
+  </data>
+  <data name="Enum_KeyFlags_Q" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="Enum_KeyFlags_R" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="Enum_KeyFlags_S" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Enum_KeyFlags_Semicolon" xml:space="preserve">
+    <value>Středník</value>
+  </data>
+  <data name="Enum_KeyFlags_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Enum_KeyFlags_Slash" xml:space="preserve">
+    <value>Lomítko</value>
+  </data>
+  <data name="Enum_KeyFlags_Space" xml:space="preserve">
+    <value>Mezerník</value>
+  </data>
+  <data name="Enum_KeyFlags_T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Enum_KeyFlags_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Enum_KeyFlags_U" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="Enum_KeyFlags_V" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="Enum_KeyFlags_W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Enum_KeyFlags_X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Enum_KeyFlags_Y" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Enum_KeyFlags_Z" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="Enum_MotionOuput_MoveCursor" xml:space="preserve">
+    <value>MoveCursor</value>
+  </data>
+  <data name="Enum_MotionOuput_ScrollWheel" xml:space="preserve">
+    <value>Kolečko myši</value>
+  </data>
+  <data name="Enum_XInputController_AxisLayoutFlags_LeftStick" xml:space="preserve">
+    <value>Levá páka</value>
+  </data>
+  <data name="Enum_XInputController_AxisLayoutFlags_RightStick" xml:space="preserve">
+    <value>Right Stick</value>
+  </data>
+  <data name="Controller_Connect" xml:space="preserve">
+    <value>Připojit</value>
+  </data>
+  <data name="Controller_Disconnect" xml:space="preserve">
+    <value>Odpojit</value>
+  </data>
+  <data name="Controller_Hide" xml:space="preserve">
+    <value>Skrýt</value>
+  </data>
+  <data name="Controller_Unhide" xml:space="preserve">
+    <value>Odkrýt</value>
+  </data>
+  <data name="Controller_Virtual" xml:space="preserve">
+    <value>Virtuální</value>
+  </data>
+  <data name="MainWindow_Back" xml:space="preserve">
+    <value>Zadní</value>
+  </data>
+  <data name="MainWindow_Exit" xml:space="preserve">
+    <value>Výstup</value>
+  </data>
+  <data name="MainWindow_MainWindow" xml:space="preserve">
+    <value>Hlavní okno</value>
+  </data>
+  <data name="MainWindow_Navigate" xml:space="preserve">
+    <value>Navigovat</value>
+  </data>
+  <data name="MainWindow_QuickTools" xml:space="preserve">
+    <value>Rychlé nástroje</value>
+  </data>
+  <data name="MainWindow_Select" xml:space="preserve">
+    <value>Vybrat</value>
+  </data>
+  <data name="Hint_SteamNeptuneReadme" xml:space="preserve">
+    <value>Měli byste restartovat Steam, aby Handheld Companion mohl automaticky upravit rozložení plochy Steam a zabránit dvojitému zadávání</value>
+  </data>
+  <data name="Hint_SteamNeptuneDesktopDesc" xml:space="preserve">
+    <value>Steam již běží a je použito rozložení plochy Steam. To může mít za následek dvojí vstup</value>
+  </data>
+  <data name="Hint_SteamNeptuneDesktop" xml:space="preserve">
+    <value>Je použito rozložení plochy Steam</value>
+  </data>
+  <data name="Hint_SteamXboxDriversReadme" xml:space="preserve">
+    <value>Možná budete chtít odinstalovat ovladač vylepšených funkcí Steam Xbox Controller</value>
+  </data>
+  <data name="Hint_SteamXboxDriversDesc" xml:space="preserve">
+    <value>Steam Xbox Controller Enhanced Features Driver je nainstalován a narušuje kapacity HidHide pro skrytí/odkrytí vašeho fyzického ovladače</value>
+  </data>
+  <data name="Hint_SteamXboxDrivers" xml:space="preserve">
+    <value>Je nainstalován ovladač vylepšených funkcí ovladače Steam Xbox Controller</value>
+  </data>
+  <data name="DevicePage_Device" xml:space="preserve">
+    <value>přístroj</value>
+  </data>
+  <data name="MainWindow_navDevice" xml:space="preserve">
+    <value>přístroj</value>
+  </data>
+  <data name="XInputController_Warning_BTH" xml:space="preserve">
+    <value>Restartujte ovladač tak, že podržíte tlačítko průvodce a dokončíte párování.</value>
+  </data>
+  <data name="DevicePage_DynamicLighting" xml:space="preserve">
+    <value>Efekty</value>
+  </data>
+  <data name="DevicePage_DynamicLightingDesc" xml:space="preserve">
+    <value>Vyberte si barevná témata a efekty pro své osvětlení</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_Ambilight" xml:space="preserve">
+    <value>Ambilight</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_SolidColor" xml:space="preserve">
+    <value>Jednobarevná</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_Brightness" xml:space="preserve">
+    <value>Jas</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_BrightnessDesc" xml:space="preserve">
+    <value>Změňte jas svých světel</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_MainColorSelection" xml:space="preserve">
+    <value>Hlavní barva</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_None" xml:space="preserve">
+    <value>Žádný</value>
+  </data>
+  <data name="DevicePage_AmbilightVerticalBlackBarDetection" xml:space="preserve">
+    <value>Detekce vertikálního černého pruhu Ambilight</value>
+  </data>
+  <data name="DevicePage_AmbilightVerticalBlackBarDetectionDesc" xml:space="preserve">
+    <value>Detekce vertikálního černého pruhu pro hry nebo videa s poměrem stran 4:3</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_Breathing" xml:space="preserve">
+    <value>Dýchání</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_Gradient" xml:space="preserve">
+    <value>Spád</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_Rainbow" xml:space="preserve">
+    <value>Duha</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_Wave" xml:space="preserve">
+    <value>Mávat</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_Wheel" xml:space="preserve">
+    <value>Kolo</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_MatchAccentColor" xml:space="preserve">
+    <value>Přizpůsobte barvu zvýraznění Windows</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_SecondColorSelection" xml:space="preserve">
+    <value>Druhá barva</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_EffectSpeed" xml:space="preserve">
+    <value>Rychlost účinku</value>
+  </data>
+  <data name="DevicePage_DynamicLighting_EffectDirection" xml:space="preserve">
+    <value>Směr</value>
+  </data>
+  <data name="MainWindow_navPerformance" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="PerformancePage_Device" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="ProfilesPage_CPUMhz" xml:space="preserve">
+    <value>Maximální frekvence hodin CPU</value>
+  </data>
+  <data name="QuickPerformancePage_CPUControl" xml:space="preserve">
+    <value>Manuální ovládání hodin CPU</value>
+  </data>
+  <data name="QuickPerformancePage_CPUControlDesc" xml:space="preserve">
+    <value>Nastaví CPU na pevný takt</value>
+  </data>
+  <data name="QuickPerformancePage_CPUUnit" xml:space="preserve">
+    <value>Mhz</value>
+  </data>
+  <data name="PowerProfileDefaultDescription" xml:space="preserve">
+    <value>Výchozí výkon a rychlost ventilátoru pro optimální výkon, teplotu, hluk a výdrž baterie.</value>
+  </data>
+  <data name="PowerProfileDefaultName" xml:space="preserve">
+    <value>Výchozí</value>
+  </data>
+  <data name="PowerProfileManualDescription" xml:space="preserve">
+    <value>Uživatelsky definovaný výkon a rychlost ventilátoru.</value>
+  </data>
+  <data name="PowerProfileManualName" xml:space="preserve">
+    <value>Manuální režim: {0}</value>
+  </data>
+  <data name="PowerProfileROGAllyBetterPerformanceDesc" xml:space="preserve">
+    <value>Vyrovnává výkon, teplotu a akustiku pro jakýkoli scénář.</value>
+  </data>
+  <data name="PowerProfileROGAllyBetterPerformance" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="PowerProfileROGAllyBetterBatteryDesc" xml:space="preserve">
+    <value>Omezuje výkon CPU a GPU, ale udržuje tichou hladinu hluku.</value>
+  </data>
+  <data name="PowerProfileROGAllyBetterBattery" xml:space="preserve">
+    <value>Tichý</value>
+  </data>
+  <data name="PowerProfileROGAllyBestPerformanceDesc" xml:space="preserve">
+    <value>Maximalizuje výkon CPU a GPU pro vysoce výkonné hraní a práci s maximálním prouděním vzduchu od ventilátorů.</value>
+  </data>
+  <data name="PowerProfileROGAllyBestPerformance" xml:space="preserve">
+    <value>Turbo</value>
+  </data>
+  <data name="QuickDevicePage_Desc" xml:space="preserve">
+    <value>Nastavení, zobrazení profilu</value>
+  </data>
+  <data name="QuickDevicePage_Title" xml:space="preserve">
+    <value>přístroj</value>
+  </data>
+  <data name="QuickHomePage_Title" xml:space="preserve">
+    <value>Domov</value>
+  </data>
+  <data name="QuickPerformancePage_Title" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="QuickProfilesPage_Desc" xml:space="preserve">
+    <value>Výkon, ovládání pohybu, grafika</value>
+  </data>
+  <data name="QuickProfilesPage_Title" xml:space="preserve">
+    <value>Profily</value>
+  </data>
+  <data name="QuickSettingsPage_Desc" xml:space="preserve">
+    <value>Preferované akce</value>
+  </data>
+  <data name="QuickSettingsPage_Title" xml:space="preserve">
+    <value>Akce</value>
+  </data>
+  <data name="QuickSuspenderPage_Desc" xml:space="preserve">
+    <value>Pozastavit a obnovit aplikace</value>
+  </data>
+  <data name="QuickSuspenderPage_Title" xml:space="preserve">
+    <value>Suspenzor</value>
+  </data>
+  <data name="QuickSettingsPage_DisplayFrequency" xml:space="preserve">
+    <value>Obnovovací frekvence</value>
+  </data>
+  <data name="QuickSettingsPage_DisplayFrequencyDesc" xml:space="preserve">
+    <value>Upravte hlavní obnovovací frekvenci</value>
+  </data>
+  <data name="ProfilesPage_FanSettings" xml:space="preserve">
+    <value>Nastavení ventilátoru</value>
+  </data>
+  <data name="ProfilesPage_FanSettingsDesc" xml:space="preserve">
+    <value>Změňte nastavení ventilátoru</value>
+  </data>
+  <data name="ProfilesPage_CreatePowerProfile" xml:space="preserve">
+    <value>Vytvořte novou předvolbu napájení</value>
+  </data>
+  <data name="ProfilesPage_CreatePowerProfileButton" xml:space="preserve">
+    <value>Vytvořte předvolbu výkonu</value>
+  </data>
+  <data name="ProfilesPage_DeletePowerProfileButton" xml:space="preserve">
+    <value>Smazat předvolbu napájení</value>
+  </data>
+  <data name="MainWindow_Toggle" xml:space="preserve">
+    <value>Přepnout</value>
+  </data>
+  <data name="XInputController_Warning_USB" xml:space="preserve">
+    <value>Počkejte prosím chvíli, než vypneme napájení vašeho ovladače.</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_B5" xml:space="preserve">
+    <value>M2</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_L4" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_L5" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_R4" xml:space="preserve">
+    <value>M3</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_R5" xml:space="preserve">
+    <value>Y3</value>
+  </data>
+  <data name="Enum_LegionGo_ButtonFlags_OEM1" xml:space="preserve">
+    <value>LegionR</value>
+  </data>
+  <data name="Enum_LegionGo_ButtonFlags_OEM2" xml:space="preserve">
+    <value>LegionL</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_B6" xml:space="preserve">
+    <value>Cvaknutí kolečkem myši</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_B7" xml:space="preserve">
+    <value>Kolečko myši nahoru</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_B8" xml:space="preserve">
+    <value>Kolečko myši dolů</value>
+  </data>
+  <data name="IController_ControllerIndex" xml:space="preserve">
+    <value>Gamepad: {0}</value>
+  </data>
+  <data name="Enum_ROGAlly_ButtonFlags_OEM4" xml:space="preserve">
+    <value>M2</value>
+  </data>
+  <data name="LayoutPage_SetAsDefault" xml:space="preserve">
+    <value>Nastavte toto jako výchozí rozložení</value>
+  </data>
+  <data name="InputsHotkey_shortcutChangeHIDMode" xml:space="preserve">
+    <value>Přepnout typ emulovaného ovladače</value>
+  </data>
+  <data name="InputsHotkey_shortcutChangeHIDModeDesc" xml:space="preserve">
+    <value>Přepínání mezi emulovanými ovladači Xbox 360 a Dualshock 4</value>
+  </data>
+  <data name="ProfilesPage_EmulatedController" xml:space="preserve">
+    <value>Typ emulovaného ovladače</value>
+  </data>
+  <data name="ProfilesPage_EmulatedControllerDefault" xml:space="preserve">
+    <value>Výchozí</value>
+  </data>
+  <data name="ProfilesPage_EmulatedControllerDS4" xml:space="preserve">
+    <value>Emulovaný ovladač DualShock 4</value>
+  </data>
+  <data name="ProfilesPage_EmulatedControllerXbox" xml:space="preserve">
+    <value>Emulovaný ovladač XBOX 360</value>
+  </data>
+  <data name="ProfilesPage_EmulatedControllerDesc" xml:space="preserve">
+    <value>Emulovaný ovladač, který se má použít, když je tento profil aktivní</value>
+  </data>
+  <data name="ControllerPage_ControllerManagement" xml:space="preserve">
+    <value>Řízení kontroléru</value>
+  </data>
+  <data name="ControllerPage_ControllerManagementDesc" xml:space="preserve">
+    <value>Automaticky spravujte své ovladače pro větší kompatibilitu</value>
+  </data>
+  <data name="ControllerPage_LegionGoPassthrough" xml:space="preserve">
+    <value>Průchod touchpadem</value>
+  </data>
+  <data name="ControllerPage_LegionGoPassthroughDesc" xml:space="preserve">
+    <value>Umožňuje používat touchpad vašeho zařízení jako běžnou myš bez jakéhokoli softwarového zpracování nebo mapování</value>
+  </data>
+  <data name="ControllerPage_Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="ControllerPage_TryAgain" xml:space="preserve">
+    <value>Zkus to znovu</value>
+  </data>
+  <data name="Hint_RogAllyServiceCheck" xml:space="preserve">
+    <value>Služby ASUS běží</value>
+  </data>
+  <data name="Hint_RogAllyServiceCheckReadme" xml:space="preserve">
+    <value>Měli byste zakázat služby ASUS, aby aplikace fungovala hladce a bez jakýchkoli konfliktů</value>
+  </data>
+  <data name="Hint_RogAllyServiceCheckDesc" xml:space="preserve">
+    <value>Služby ASUS již na vašem zařízení běží. To může rušit aplikaci</value>
+  </data>
+  <data name="Hint_RogAllyServiceCheckAction" xml:space="preserve">
+    <value>Zakažte služby ASUS</value>
+  </data>
+  <data name="Hint_SteamNeptuneAction" xml:space="preserve">
+    <value>Restartujte Steam</value>
+  </data>
+  <data name="MainWindow_navNotifications" xml:space="preserve">
+    <value>Oznámení</value>
+  </data>
+  <data name="NotificationsPage_NothingToSee" xml:space="preserve">
+    <value>Zatím žádná upozornění</value>
+  </data>
+  <data name="NotificationsPage_NothingToSeeDesc" xml:space="preserve">
+    <value>Momentálně nemáte žádná oznámení.</value>
+  </data>
+  <data name="ControllerPage_HIDManagedByProfileAction" xml:space="preserve">
+    <value>Přejděte do nastavení profilů a změňte předvolbu typu emulovaného ovladače pro jednotlivé hry.</value>
+  </data>
+  <data name="ControllerPage_HIDManagedByProfileDesc" xml:space="preserve">
+    <value>Emulovaný typ ovladače je spravován aktuálně použitým herním profilem.</value>
+  </data>
+  <data name="ControllerPage_HIDManagedByProfileWarning" xml:space="preserve">
+    <value>Emulovaný ovladač je spravován profilem</value>
+  </data>
+  <data name="Hint_CoreIsolationCheck" xml:space="preserve">
+    <value>Funkce izolace jádra jsou zapnuty</value>
+  </data>
+  <data name="Hint_CoreIsolationCheckAction" xml:space="preserve">
+    <value>Zakázat izolaci jádra</value>
+  </data>
+  <data name="Hint_CoreIsolationCheckDesc" xml:space="preserve">
+    <value>Funkce izolace jádra systému jsou zapnuté, proto může být zakázáno čtení/zápis TDP a ovládání ventilátoru</value>
+  </data>
+  <data name="Hint_CoreIsolationCheckReadme" xml:space="preserve">
+    <value>Možná budete chtít vypnout izolaci jádra a restartovat systém, abyste povolili manipulace s TDP</value>
+  </data>
+  <data name="ProfilesPage_SubProfiles" xml:space="preserve">
+    <value>Dílčí profily</value>
+  </data>
+  <data name="ProfilesPage_SubProfilesDesc" xml:space="preserve">
+    <value>Přidejte různé profily do stejné hry</value>
+  </data>
+  <data name="QuickProfilesPage_SubProfilesDesc" xml:space="preserve">
+    <value>Vyberte dílčí profil, který chcete použít</value>
+  </data>
+  <data name="InputsHotkey_nextSubProfile" xml:space="preserve">
+    <value>Vyberte další podprofil</value>
+  </data>
+  <data name="InputsHotkey_nextSubProfileDesc" xml:space="preserve">
+    <value>Použít další podprofil pro aktuální hru</value>
+  </data>
+  <data name="InputsHotkey_previousSubProfile" xml:space="preserve">
+    <value>Vyberte předchozí dílčí profil</value>
+  </data>
+  <data name="InputsHotkey_previousSubProfileDesc" xml:space="preserve">
+    <value>Použít předchozí dílčí profil pro aktuální hru</value>
+  </data>
+  <data name="DevicePage_FullFanSpeedDesc" xml:space="preserve">
+    <value>Nastaví ventilátor na maximální rychlost</value>
+  </data>
+  <data name="DevicePage_FullFanSpeedText" xml:space="preserve">
+    <value>Přepsání maximální rychlosti ventilátoru</value>
+  </data>
+  <data name="Hint_AMD_IntegerScalingCheck" xml:space="preserve">
+    <value>Celočíselné škálování není k dispozici</value>
+  </data>
+  <data name="Hint_AMD_IntegerScalingCheckAction" xml:space="preserve">
+    <value>Nasadit celočíselné škálování</value>
+  </data>
+  <data name="Hint_AMD_IntegerScalingCheckDesc" xml:space="preserve">
+    <value>Funkce celočíselného škálování není nainstalována, proto ji nebudete moci povolit ani zakázat</value>
+  </data>
+  <data name="Hint_AMD_IntegerScalingCheckReadme" xml:space="preserve">
+    <value>Potřebujeme spustit nějaký skript k nasazení celočíselného škálování ve vašem systému</value>
+  </data>
+  <data name="QuickOverlayPage_Desc" xml:space="preserve">
+    <value>Správa překrytí na obrazovce</value>
+  </data>
+  <data name="QuickOverlayPage_Title" xml:space="preserve">
+    <value>Překryvná vrstva</value>
+  </data>
+  <data name="ProfilesPage_DefaultDeviceProfile" xml:space="preserve">
+    <value>Toto je výchozí předvolba zařízení a nelze ji upravit. Ty jsou srovnatelné s předvolbami, které poskytuje originální software zařízení.</value>
+  </data>
+  <data name="PowerProfileLegionGoBetterBattery" xml:space="preserve">
+    <value>Účinnost</value>
+  </data>
+  <data name="PowerProfileLegionGoBetterBatteryDesc" xml:space="preserve">
+    <value>Přednastavení podobné Efficiency Mode v LS. Limit TDP: 8W</value>
+  </data>
+  <data name="PowerProfileLegionGoBetterPerformance" xml:space="preserve">
+    <value>Vyrovnaný</value>
+  </data>
+  <data name="PowerProfileLegionGoBetterPerformanceDesc" xml:space="preserve">
+    <value>Přednastavení podobné jako Balanced Mode v LS. Limit TDP: 15W</value>
+  </data>
+  <data name="PowerProfileLegionGoBestPerformance" xml:space="preserve">
+    <value>Výkon</value>
+  </data>
+  <data name="PowerProfileLegionGoBestPerformanceDesc" xml:space="preserve">
+    <value>Přednastavení podobné jako Performance Mode v LS. Limit TDP: 20W</value>
+  </data>
+  <data name="ProfilesPage_DefaultProfile" xml:space="preserve">
+    <value>Toto je výchozí předvolba, u této předvolby nemůžete upravovat křivku ventilátoru.</value>
+  </data>
+  <data name="Hint_LegionGoServices" xml:space="preserve">
+    <value>Legion Space Tasks and Services jsou aktivní</value>
+  </data>
+  <data name="Hint_LegionGoServicesAction" xml:space="preserve">
+    <value>Zakázat prostor Legion</value>
+  </data>
+  <data name="Hint_LegionGoServicesDesc" xml:space="preserve">
+    <value>Legion Space Tasks and Services jsou již aktivní na vaší konzoli. To může způsobit problémy s kompatibilitou s aplikací.</value>
+  </data>
+  <data name="Hint_LegionGoServicesReadme" xml:space="preserve">
+    <value>Měli byste zakázat Legion Space Tasks and Services, aby aplikace fungovala správně a bez jakýchkoli chyb</value>
+  </data>
+  <data name="DevicePage_UseSecondColor" xml:space="preserve">
+    <value>Použijte druhou barvu</value>
+  </data>
+  <data name="ProfilesPage_GraphicsSettings" xml:space="preserve">
+    <value>Nastavení grafiky</value>
+  </data>
+  <data name="ProfilesPage_GraphicsSettingsDesc" xml:space="preserve">
+    <value>Změňte nastavení grafiky</value>
+  </data>
+  <data name="PowerProfilesPage_PresetSelection" xml:space="preserve">
+    <value>Přednastavený výběr</value>
+  </data>
+  <data name="PowerProfilesPage_PresetSelectionDesc" xml:space="preserve">
+    <value>Vyberte předvolbu, kterou chcete upravit</value>
+  </data>
+  <data name="PowerProfilesPage_DevicePresets" xml:space="preserve">
+    <value>Předvolby zařízení</value>
+  </data>
+  <data name="PowerProfilesPage_UserPresets" xml:space="preserve">
+    <value>Uživatelské předvolby</value>
+  </data>
+  <data name="ProfilesPage_PowerSettings" xml:space="preserve">
+    <value>Nastavení napájení</value>
+  </data>
+  <data name="QuickSettingsPage_ResolutionOverrideWarning" xml:space="preserve">
+    <value>Rozlišení je aktuálně přepsáno profilem</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocationLeft" xml:space="preserve">
+    <value>Vlevo, odjet</value>
+  </data>
+  <data name="SettingsPage_QuickToolsWindowLocationRight" xml:space="preserve">
+    <value>Že jo</value>
+  </data>
+  <data name="InputsHotkey_OnScreenDisplayToggle" xml:space="preserve">
+    <value>Překrytí na obrazovce</value>
+  </data>
+  <data name="InputsHotkey_OnScreenDisplayToggleDesc" xml:space="preserve">
+    <value>Přepnout na překrytí obrazovky</value>
+  </data>
+  <data name="ProfilesPage_GPUScaling" xml:space="preserve">
+    <value>Škálování GPU</value>
+  </data>
+  <data name="ProfilesPage_GPUScalingDesc" xml:space="preserve">
+    <value>GPU zvětší nižší rozlišení, aby se vešly na displej</value>
+  </data>
+  <data name="ProfilesPage_ImageSharpening" xml:space="preserve">
+    <value>Zaostření obrazu</value>
+  </data>
+  <data name="ProfilesPage_ImageSharpeningDesc" xml:space="preserve">
+    <value>Zlepšuje vizuální detaily</value>
+  </data>
+  <data name="ProfilesPage_IS" xml:space="preserve">
+    <value>Celočíselné škálování</value>
+  </data>
+  <data name="ProfilesPage_ISDesc" xml:space="preserve">
+    <value>Zvyšuje rozlišení vynásobením každého pixelu celým číslem</value>
+  </data>
+  <data name="ProfilesPage_ResolutionScale" xml:space="preserve">
+    <value>Měřítko rozlišení</value>
+  </data>
+  <data name="ProfilesPage_ResolutionScaleDesc" xml:space="preserve">
+    <value>Měřítko rozlišení, na které se použije celočíselné škálování</value>
+  </data>
+  <data name="ProfilesPage_RSR" xml:space="preserve">
+    <value>Radeon Super rozlišení</value>
+  </data>
+  <data name="ProfilesPage_RSRDesc" xml:space="preserve">
+    <value>Funkce upscaling založená na řidiči pro rychlejší rámce</value>
+  </data>
+  <data name="ProfilesPage_ScalingMode" xml:space="preserve">
+    <value>Režim škálování</value>
+  </data>
+  <data name="ProfilesPage_ScalingModeDesc" xml:space="preserve">
+    <value>Vyberte metodu používanou k natažení a umístění obrázků tak, aby se přizpůsobila displeji</value>
+  </data>
+  <data name="ProfilesPage_ScalingMode_Center" xml:space="preserve">
+    <value>Centrum</value>
+  </data>
+  <data name="ProfilesPage_ScalingMode_FullPanel" xml:space="preserve">
+    <value>Celý panel</value>
+  </data>
+  <data name="ProfilesPage_ScalingMode_PreserveAspectRatio" xml:space="preserve">
+    <value>Poměr stran zachování</value>
+  </data>
+  <data name="ProfilesPage_Sharpen" xml:space="preserve">
+    <value>Naostřit efekt</value>
+  </data>
+  <data name="QuickSettingsPage_ResScaleExclusiveFullscreen" xml:space="preserve">
+    <value>1/1 podporuje pouze exkluzivní celoobjetí.</value>
+  </data>
+  <data name="SettingsPage_UISounds" xml:space="preserve">
+    <value>Povolit zvuky uživatelského rozhraní</value>
+  </data>
+  <data name="SettingsPage_UISoundsDesc" xml:space="preserve">
+    <value>Povolte nebo deaktivujte zvuky uživatelského rozhraní na navigaci</value>
+  </data>
+  <data name="ProfilesPage_ResolutionScaleType" xml:space="preserve">
+    <value>Typ měřítka</value>
+  </data>
+  <data name="ProfilesPage_ResolutionScaleTypeDesc" xml:space="preserve">
+    <value>Vyberte typ měřítka pro přizpůsobení poměru škálování stran</value>
+  </data>
+  <data name="ProfilesPage_ResolutionScaleTypeInteger" xml:space="preserve">
+    <value>Měřítko celého čísla</value>
+  </data>
+  <data name="ProfilesPage_ResolutionScaleTypeNearest" xml:space="preserve">
+    <value>Nejbližší soused</value>
+  </data>
+  <data name="ControllerPage_PhysicalDevicesDesc" xml:space="preserve">
+    <value>připojeno k počítači</value>
+  </data>
+  <data name="ControllerPage_VirtualDevices" xml:space="preserve">
+    <value>Virtuální řadič</value>
+  </data>
+  <data name="ControllerPage_VirtualDevicesDesc" xml:space="preserve">
+    <value>je to, co počítač používá</value>
+  </data>
+  <data name="ControllerPage_VirtualStatus" xml:space="preserve">
+    <value>Stav řadiče</value>
+  </data>
+  <data name="ControllerPage_VirtualStatusDesc" xml:space="preserve">
+    <value>Změňte stav virtuálního ovladače</value>
+  </data>
+  <data name="ControllerPage_VirtualType" xml:space="preserve">
+    <value>Typ řadiče</value>
+  </data>
+  <data name="ControllerPage_VirtualTypeDesc" xml:space="preserve">
+    <value>Změňte typ virtuálního ovladače</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerAutoSleepTime" xml:space="preserve">
+    <value>Doba spánku automatického spánku</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerJoystickDeadzone" xml:space="preserve">
+    <value>Joystick Deadzone</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerLeft" xml:space="preserve">
+    <value>Ovládač legie</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerLeftDesc" xml:space="preserve">
+    <value>Změnit nastavení pro správce levé legie</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerRight" xml:space="preserve">
+    <value>Pravá legie</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerRightDesc" xml:space="preserve">
+    <value>Změnit nastavení správného řadiče legie</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerTriggerDeadzone" xml:space="preserve">
+    <value>Spouštět Deadzone</value>
+  </data>
+  <data name="DevicePage_Lenovo_ControllerTriggerMargin" xml:space="preserve">
+    <value>Spouštěcí okraj</value>
+  </data>
+  <data name="DevicePage_Lenovo_Settings" xml:space="preserve">
+    <value>Lenovo Legion Go Nastavení</value>
+  </data>
+  <data name="AboutPage_UnsupportedDevice" xml:space="preserve">
+    <value>Oups, zdá se, že vaše zařízení ještě není podporováno. Software nemusí běžet podle očekávání.</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_RightPadClick" xml:space="preserve">
+    <value>Dvojí poklepání</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_RightPadClickDown" xml:space="preserve">
+    <value>Držet</value>
+  </data>
+  <data name="Enum_LegionController_ButtonFlags_RightPadTouch" xml:space="preserve">
+    <value>Dotek</value>
+  </data>
+  <data name="Enum_Input_LocalSpace" xml:space="preserve">
+    <value>Místní prostor</value>
+  </data>
+  <data name="Enum_MotionInput_LocalSpace" xml:space="preserve">
+    <value>Místní prostor</value>
+  </data>
+  <data name="Enum_MotionInput_LocalSpace_Desc" xml:space="preserve">
+    <value>Vstup je založen na orientaci řadiče, nezávisle na světě nebo charakteru.</value>
+  </data>
+  <data name="SettingsPage_SensorCalibration" xml:space="preserve">
+    <value>Kalibrace senzoru</value>
+  </data>
+  <data name="SettingsPage_SensorCalibrationDesc" xml:space="preserve">
+    <value>Kalibruje snímač IMU zařízení</value>
+  </data>
+  <data name="OverlayPage_DualShock4Controller" xml:space="preserve">
+    <value>Dualshock 4</value>
+  </data>
+  <data name="OverlayPage_SteamDeck" xml:space="preserve">
+    <value>Steam Deck</value>
+  </data>
+  <data name="OverlayPage_Xbox360Controller" xml:space="preserve">
+    <value>Xbox 360</value>
+  </data>
+  <data name="ProfilesPage_RollYawAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Hint_MSIClawCenterCheck" xml:space="preserve">
+    <value>MSI centrum běží</value>
+  </data>
+  <data name="Hint_MSIClawCenterCheckAction" xml:space="preserve">
+    <value>Zakázat centrum MSI</value>
+  </data>
+  <data name="Hint_MSIClawCenterCheckDesc" xml:space="preserve">
+    <value>MSI centrum běží na vašem zařízení. To může narušit aplikaci</value>
+  </data>
+  <data name="Hint_MSIClawCenterCheckReadme" xml:space="preserve">
+    <value>Měli byste zakázat centrum MSI, aby aplikace mohla běžet hladce a bez jakýchkoli konfliktů</value>
+  </data>
+  <data name="PowerProfileMSIClawBestPerformance" xml:space="preserve">
+    <value>Extrémní výkon</value>
+  </data>
+  <data name="PowerProfileMSIClawBestPerformanceDesc" xml:space="preserve">
+    <value>Nejlepší výkon systému pro více úkolů a těžkých služeb.</value>
+  </data>
+  <data name="PowerProfileMSIClawBetterBattery" xml:space="preserve">
+    <value>Super baterie</value>
+  </data>
+  <data name="PowerProfileMSIClawBetterBatteryDesc" xml:space="preserve">
+    <value>Nejdelší možná výdrž baterie.</value>
+  </data>
+  <data name="PowerProfileMSIClawBetterPerformance" xml:space="preserve">
+    <value>Vyrovnaný</value>
+  </data>
+  <data name="PowerProfileMSIClawBetterPerformanceDesc" xml:space="preserve">
+    <value>Nejlepší nastavení systému, které MSI doporučuje.</value>
+  </data>
+  <data name="Enum_InputsHotkeyType_Profiles" xml:space="preserve">
+    <value>Profily</value>
+  </data>
+  <data name="Enum_MotionOutput_Disabled" xml:space="preserve">
+    <value>Deaktivované</value>
+  </data>
+  <data name="Enum_MotionOutput_MoveCursor" xml:space="preserve">
+    <value>Přesunout kurzor</value>
+  </data>
+  <data name="Enum_MotionOutput_ScrollWheel" xml:space="preserve">
+    <value>Kolečko myši</value>
+  </data>
+  <data name="Enum_XInputController_AxisLayoutFlags_Gyroscope" xml:space="preserve">
+    <value>Gyroskop</value>
+  </data>
+  <data name="Enum_XInputController_ButtonFlags_Special2" xml:space="preserve">
+    <value>Speciální 2</value>
+  </data>
+  <data name="DevicePage_LegionBatteryChargeLimit" xml:space="preserve">
+    <value>80% limit nabití baterie</value>
+  </data>
+  <data name="DevicePage_LegionBatteryChargeLimit_Desc" xml:space="preserve">
+    <value>Nastaví maximální úroveň nabití baterie na 80%</value>
+  </data>
+</root>
